@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE GraphXML SYSTEM "GraphXML.dtd">
+<GraphXML>
+<graph id="My First Graph">
+
+<line tag="node" class="image" colour="blue" />
+<line tag="node" class="place" colour="red" />
+<line tag="node" class="historical_document" colour="green" />
+<line tag="node" class="historical_profile" colour="black" />
+<line tag="node" class="timeline_event" colour="orange" />
+<line tag="node" class="almanac" colour="purple" />
+<line tag="node" class="major_topic" colour="lightblue" />
+<line tag="node" class="biblio" colour="gray" />
+
+
+<fill tag="node" class="myClass" colour="white" />
+<!-- Here come your nodes -->
+<node class='image' name='N21748'><label>The Liberty Line</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/21748'/></dataref></node>
+<node class='image' name='N18891'><label>Border States of Maryland and Virginia, panoramic view looking south from central Pennsylvania, circa 1861</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/18891'/></dataref></node>
+<node class='place' name='N14463'><label>North America</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/14463'/></dataref></node>
+<node class='image' name='N13803'><label>Maryland State House, Annapolis, Maryland</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/13803'/></dataref></node>
+<node class='major_topic' name='N9588'><label>Underground Railroad</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/9588'/></dataref></node>
+<node class='place' name='N8987'><label>Canada</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/8987'/></dataref></node>
+<node class='image' name='N18724'><label>"Desperate Confict in a Barn," October, 1853.</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/18724'/></dataref></node>
+<node class='image' name='N19335'><label>John Hays, detail</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/19335'/></dataref></node>
+<node class='image' name='N17910'><label>Dickinson College, 1872, map detail</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/17910'/></dataref></node>
+<node class='historical_profile' name='N5900'><label>Himes, Charles Francis</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/5900'/></dataref></node>
+<node class='image' name='N19690'><label>Eastern Maryland and the Chesapeake Bay, 1857</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/19690'/></dataref></node>
+<node class='place' name='N8996'><label>Maryland</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/8996'/></dataref></node>
+<node class='image' name='N15891'><label>Ohio, 1853</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/15891'/></dataref></node>
+<node class='place' name='N8984'><label>Pennsylvania</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/8984'/></dataref></node>
+<node class='place' name='N9346'><label>Cumberland County, PA</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/9346'/></dataref></node>
+<node class='image' name='N1206'><label>Charles Francis Himes, c 1885, detail</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/1206'/></dataref></node>
+<node class='image' name='N18431'><label>Philadelphia, Pennsylvania Vicinity, 1857</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/18431'/></dataref></node>
+<node class='image' name='N18728'><label>"The Mayor and Police of Norfolk searching Capt. Fountain's Schooner," Virginia, November, 1855.</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/18728'/></dataref></node>
+<node class='place' name='N9127'><label>Mason-Dixon Line</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/9127'/></dataref></node>
+<node class='historical_profile' name='N5864'><label>Hays, John</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/5864'/></dataref></node>
+<node class='image' name='N15486'><label>Pennsylvania State Capitol, Harrisburg, Pennsylvania, circa 1890</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/15486'/></dataref></node>
+<node class='image' name='N19691'><label>Southern Eastern Seaboard - New York to St. Augustine, 1857</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/19691'/></dataref></node>
+<node class='image' name='N2381'><label>Charles Francis Himes, circa 1856, detail</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/2381'/></dataref></node>
+<node class='image' name='N17236'><label>Pennsylvania State Capitol, Harrisburg, Pennsylvania, 1855</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/17236'/></dataref></node>
+<node class='place' name='N9312'><label>Carlisle, PA</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/9312'/></dataref></node>
+<node class='image' name='N18726'><label>"Bold Stroke For Freedom," Maryland, December 25, 1855.</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/18726'/></dataref></node>
+<node class='image' name='N19823'><label>Pennsylvania, Southern Counties, 1857</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/19823'/></dataref></node>
+<node class='image' name='N15894'><label>Pennsylvania, 1853</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/15894'/></dataref></node>
+<node class='image' name='N17909'><label>Carlisle, Pennsylvania, 1872, detail</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/17909'/></dataref></node>
+<node class='image' name='N21749'><label>Site of the "Jerry Rescue" Hearing, Syracuse, New York, October 1, 1851</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/21749'/></dataref></node>
+<node class='image' name='N18723'><label>"Fight in the Bay," June, 1860</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/18723'/></dataref></node>
+<node class='image' name='N19822'><label>Pennsylvania, Western Counties, 1857</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/19822'/></dataref></node>
+<node class='image' name='N15989'><label>Philadelphia, 1853</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/15989'/></dataref></node>
+<node class='image' name='N1296'><label>Charles Francis Himes, c 1860</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/1296'/></dataref></node>
+<node class='place' name='N9194'><label>Lancaster County, PA</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/9194'/></dataref></node>
+<node class='image' name='N18729'><label>"Escaping from Norfolk in Capt. Lee's Skiff," Virginia, October, 1857.</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/18729'/></dataref></node>
+<node class='image' name='N18721'><label>"Twenty-eight fugitives Escaping from the Eastern Shore of Maryland," October 28, 1857.</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/18721'/></dataref></node>
+<node class='place' name='N9118'><label>Philadelphia, PA</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/9118'/></dataref></node>
+<node class='image' name='N15899'><label>United States and its Territories, 1853</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/15899'/></dataref></node>
+<node class='image' name='N18725'><label>"Rescue of Jane Johnson and her Children," July, 1855.</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/18725'/></dataref></node>
+<node class='image' name='N18733'><label>"The Tragedy at Christiana," Christiana, Pennsylvania, September 11, 1851.</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/18733'/></dataref></node>
+<node class='image' name='N2383'><label>Charles Francis Himes, circa 1914, detail</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/2383'/></dataref></node>
+<node class='image' name='N15887'><label>Maryland, 1853</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/15887'/></dataref></node>
+<node class='image' name='N19821'><label>Pennsylvania, Eastern Counties, 1857</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/19821'/></dataref></node>
+<node class='image' name='N18059'><label>The Resurrection of Henry Box Brown, March 24, 1849</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/18059'/></dataref></node>
+<node class='image' name='N21909'><label>The Branded Hand, from the Anti-Slavery Bugle, circa 1845</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/21909'/></dataref></node>
+<node class='image' name='N17850'><label>Cumberland County, Pennsylvania, 1872</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/17850'/></dataref></node>
+<node class='place' name='N9093'><label>United States of America</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/9093'/></dataref></node>
+<node class='image' name='N18430'><label>Lancaster County, Pennsylvania, 1857</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/18430'/></dataref></node>
+<node class='image' name='N19824'><label>Pennsylvania, 1857</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/19824'/></dataref></node>
+<node class='place' name='N9024'><label>Ohio</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/9024'/></dataref></node>
+<node class='historical_document' name='N45'><label>John Hays to Charles Francis Himes, June 20, 1859</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/45'/></dataref></node>
+<node class='major_topic' name='N17946'><label>Dickinson College</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/17946'/></dataref></node>
+<node class='image' name='N19820'><label>Pennsylvania Coal Districts, 1857</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/19820'/></dataref></node>
+<node class='place' name='N9356'><label>Philadelphia County, PA</label><dataref><ref xlink:show='new' xlink:href='http://housedivided.dickinson.edu/main/index.php?q=node/9356'/></dataref></node>
+
+<!-- Here come the edges -->
+<edge source='N9588' target='N18059' />
+<edge source='N9588' target='N18721' />
+<edge source='N9588' target='N18723' />
+<edge source='N9588' target='N18724' />
+<edge source='N9588' target='N18725' />
+<edge source='N9588' target='N18726' />
+<edge source='N9588' target='N18728' />
+<edge source='N9588' target='N18729' />
+<edge source='N9588' target='N18733' />
+<edge source='N9588' target='N21748' />
+<edge source='N9588' target='N21749' />
+<edge source='N9588' target='N21909' />
+<edge source='N9588' target='N8987' />
+<edge source='N9588' target='N8996' />
+<edge source='N9588' target='N9024' />
+<edge source='N9588' target='N9127' />
+<edge source='N8987' target='N14463' />
+<edge source='N5900' target='N1206' />
+<edge source='N5900' target='N1296' />
+<edge source='N5900' target='N2381' />
+<edge source='N5900' target='N2383' />
+<edge source='N5900' target='N17946' />
+<edge source='N5900' target='N9194' />
+<edge source='N8996' target='N13803' />
+<edge source='N8996' target='N15887' />
+<edge source='N8996' target='N18891' />
+<edge source='N8996' target='N19690' />
+<edge source='N8996' target='N9093' />
+<edge source='N8984' target='N15486' />
+<edge source='N8984' target='N15894' />
+<edge source='N8984' target='N17236' />
+<edge source='N8984' target='N18891' />
+<edge source='N8984' target='N19820' />
+<edge source='N8984' target='N19821' />
+<edge source='N8984' target='N19822' />
+<edge source='N8984' target='N19823' />
+<edge source='N8984' target='N19824' />
+<edge source='N8984' target='N9093' />
+<edge source='N8984' target='N15486' />
+<edge source='N8984' target='N15894' />
+<edge source='N8984' target='N17236' />
+<edge source='N8984' target='N18891' />
+<edge source='N8984' target='N19820' />
+<edge source='N8984' target='N19821' />
+<edge source='N8984' target='N19822' />
+<edge source='N8984' target='N19823' />
+<edge source='N8984' target='N19824' />
+<edge source='N8984' target='N9093' />
+<edge source='N8984' target='N15486' />
+<edge source='N8984' target='N15894' />
+<edge source='N8984' target='N17236' />
+<edge source='N8984' target='N18891' />
+<edge source='N8984' target='N19820' />
+<edge source='N8984' target='N19821' />
+<edge source='N8984' target='N19822' />
+<edge source='N8984' target='N19823' />
+<edge source='N8984' target='N19824' />
+<edge source='N8984' target='N9093' />
+<edge source='N8984' target='N15486' />
+<edge source='N8984' target='N15894' />
+<edge source='N8984' target='N17236' />
+<edge source='N8984' target='N18891' />
+<edge source='N8984' target='N19820' />
+<edge source='N8984' target='N19821' />
+<edge source='N8984' target='N19822' />
+<edge source='N8984' target='N19823' />
+<edge source='N8984' target='N19824' />
+<edge source='N8984' target='N9093' />
+<edge source='N8984' target='N15486' />
+<edge source='N8984' target='N15894' />
+<edge source='N8984' target='N17236' />
+<edge source='N8984' target='N18891' />
+<edge source='N8984' target='N19820' />
+<edge source='N8984' target='N19821' />
+<edge source='N8984' target='N19822' />
+<edge source='N8984' target='N19823' />
+<edge source='N8984' target='N19824' />
+<edge source='N8984' target='N9093' />
+<edge source='N8984' target='N15486' />
+<edge source='N8984' target='N15894' />
+<edge source='N8984' target='N17236' />
+<edge source='N8984' target='N18891' />
+<edge source='N8984' target='N19820' />
+<edge source='N8984' target='N19821' />
+<edge source='N8984' target='N19822' />
+<edge source='N8984' target='N19823' />
+<edge source='N8984' target='N19824' />
+<edge source='N8984' target='N9093' />
+<edge source='N8984' target='N15486' />
+<edge source='N8984' target='N15894' />
+<edge source='N8984' target='N17236' />
+<edge source='N8984' target='N18891' />
+<edge source='N8984' target='N19820' />
+<edge source='N8984' target='N19821' />
+<edge source='N8984' target='N19822' />
+<edge source='N8984' target='N19823' />
+<edge source='N8984' target='N19824' />
+<edge source='N8984' target='N9093' />
+<edge source='N9346' target='N17850' />
+<edge source='N9346' target='N8984' />
+<edge source='N9346' target='N17850' />
+<edge source='N9346' target='N8984' />
+<edge source='N9346' target='N17850' />
+<edge source='N9346' target='N8984' />
+<edge source='N9346' target='N17850' />
+<edge source='N9346' target='N8984' />
+<edge source='N9346' target='N17850' />
+<edge source='N9346' target='N8984' />
+<edge source='N9127' target='N9093' />
+<edge source='N9127' target='N9093' />
+<edge source='N9127' target='N9093' />
+<edge source='N9127' target='N9093' />
+<edge source='N5864' target='N19335' />
+<edge source='N5864' target='N17946' />
+<edge source='N5864' target='N9312' />
+<edge source='N9312' target='N17909' />
+<edge source='N9312' target='N9346' />
+<edge source='N9312' target='N17909' />
+<edge source='N9312' target='N9346' />
+<edge source='N9312' target='N17909' />
+<edge source='N9312' target='N9346' />
+<edge source='N9312' target='N17909' />
+<edge source='N9312' target='N9346' />
+<edge source='N9312' target='N17909' />
+<edge source='N9312' target='N9346' />
+<edge source='N9194' target='N18430' />
+<edge source='N9194' target='N8984' />
+<edge source='N9118' target='N15989' />
+<edge source='N9118' target='N18431' />
+<edge source='N9118' target='N9356' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9093' target='N15899' />
+<edge source='N9093' target='N19691' />
+<edge source='N9093' target='N14463' />
+<edge source='N9024' target='N15891' />
+<edge source='N9024' target='N9093' />
+<edge source='N45' target='N5864' />
+<edge source='N45' target='N5900' />
+<edge source='N45' target='N9588' />
+<edge source='N45' target='N17946' />
+<edge source='N45' target='N9118' />
+<edge source='N45' target='N9312' />
+<edge source='N17946' target='N17910' />
+<edge source='N17946' target='N9127' />
+<edge source='N17946' target='N9312' />
+<edge source='N17946' target='N17910' />
+<edge source='N17946' target='N9127' />
+<edge source='N17946' target='N9312' />
+<edge source='N17946' target='N17910' />
+<edge source='N17946' target='N9127' />
+<edge source='N17946' target='N9312' />
+<edge source='N9356' target='N18431' />
+<edge source='N9356' target='N8984' />
+
+</graph>
+
+</GraphXML>

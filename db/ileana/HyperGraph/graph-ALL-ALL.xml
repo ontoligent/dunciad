@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<!DOCTYPE GraphXML SYSTEM "GraphXML.dtd">
+<GraphXML>
+<graph id="DunceGraph: ALL + ALL">
+	<line tag='edge' class='akin_to'			color='green' />
+<line tag='edge' class='attacked'		color='red' />
+<line tag='edge' class='defended'		color='blue' />
+<line tag='edge' class='dissimilar'	color='orange' />
+<line tag='edge' class='unkonwn'			color='gray' />
+<line tag='node' class='person'			color='black' />
+<fill tag='node' class='person'			color='#FFFFCC' fillstyle='solid' />
+
+	<node class='person' name=''><label></label></node>
+<node class='person' name='a_boyer'><label>A Boyer</label></node>
+<node class='person' name='a_moore'><label>A Moore</label></node>
+<node class='person' name='abel_evans'><label>Abel Evans</label></node>
+<node class='person' name='alexander_pope'><label>Alexander Pope</label></node>
+<node class='person' name='ambrose_phillips'><label>Ambrose Phillips</label></node>
+<node class='person' name='anne_tanneguy'><label>Anne Tanneguy</label></node>
+<node class='person' name='barton_booth'><label>Barton Booth</label></node>
+<node class='person' name='bavius'><label>Bavius</label></node>
+<node class='person' name='benjamin_hoadly'><label>Benjamin Hoadly</label></node>
+<node class='person' name='bernard_lintot'><label>Bernard Lintot</label></node>
+<node class='person' name='caius_gabriel_cibber'><label>Caius Gabriel Cibber</label></node>
+<node class='person' name='camillo_querno'><label>Camillo Querno</label></node>
+<node class='person' name='cardell_goodman'><label>Cardell Goodman</label></node>
+<node class='person' name='charles_fleetwood'><label>Charles Fleetwood</label></node>
+<node class='person' name='charles_gildon'><label>Charles Gildon</label></node>
+<node class='person' name='cloacina'><label>Cloacina</label></node>
+<node class='person' name='colley_cibber'><label>Colley Cibber</label></node>
+<node class='person' name='dulness'><label>Dulness</label></node>
+<node class='person' name='edmund_curll'><label>Edmund Curll</label></node>
+<node class='person' name='edmund_gibson'><label>Edmund Gibson</label></node>
+<node class='person' name='edward_ward'><label>Edward Ward</label></node>
+<node class='person' name='edward_young'><label>Edward Young</label></node>
+<node class='person' name='elisha_kirkall'><label>Elisha Kirkall</label></node>
+<node class='person' name='eliza_haywood'><label>Eliza Haywood</label></node>
+<node class='person' name='elizabeth_thomas'><label>Elizabeth Thomas</label></node>
+<node class='person' name='elkanah_settle'><label>Elkanah Settle</label></node>
+<node class='person' name='eustace_budgell'><label>Eustace Budgell</label></node>
+<node class='person' name='frances_hare'><label>Frances Hare</label></node>
+<node class='person' name='francis_atterbury'><label>Francis Atterbury</label></node>
+<node class='person' name='george_ducket'><label>George Ducket</label></node>
+<node class='person' name='george_duckett'><label>George Duckett</label></node>
+<node class='person' name='george_etherege'><label>George Etherege</label></node>
+<node class='person' name='george_i'><label>George I</label></node>
+<node class='person' name='george_ii'><label>George II</label></node>
+<node class='person' name='giles_jacob'><label>Giles Jacob</label></node>
+<node class='person' name='henry_cromwell'><label>Henry Cromwell</label></node>
+<node class='person' name='henry_curll'><label>Henry Curll</label></node>
+<node class='person' name='henry_janssen'><label>Henry Janssen</label></node>
+<node class='person' name='hilkiah_bedford'><label>Hilkiah Bedford</label></node>
+<node class='person' name='isaac_newton'><label>Isaac Newton</label></node>
+<node class='person' name='issac_barrow'><label>Issac Barrow</label></node>
+<node class='person' name='james_ralph'><label>James Ralph</label></node>
+<node class='person' name='james-moore_smith'><label>James-Moore Smith</label></node>
+<node class='person' name='jeremy_collier'><label>Jeremy Collier</label></node>
+<node class='person' name='john_anstis'><label>John Anstis</label></node>
+<node class='person' name='john_banks'><label>John Banks</label></node>
+<node class='person' name='john_dennis'><label>John Dennis</label></node>
+<node class='person' name='john_dryden'><label>John Dryden</label></node>
+<node class='person' name='john_fletcher'><label>John Fletcher</label></node>
+<node class='person' name='john_garth'><label>John Garth</label></node>
+<node class='person' name='john_gay'><label>John Gay</label></node>
+<node class='person' name='john_henley'><label>John Henley</label></node>
+<node class='person' name='john_hervey'><label>John Hervey</label></node>
+<node class='person' name='john_locke'><label>John Locke</label></node>
+<node class='person' name='john_oldmixon'><label>John Oldmixon</label></node>
+<node class='person' name='john_ozell'><label>John Ozell</label></node>
+<node class='person' name='john_toland'><label>John Toland</label></node>
+<node class='person' name='jonathan_swift'><label>Jonathan Swift</label></node>
+<node class='person' name='joseph_addison'><label>Joseph Addison</label></node>
+<node class='person' name='joseph_gay'><label>Joseph Gay</label></node>
+<node class='person' name='lady_mary_wortley_montagu'><label>Lady Mary Wortley Montagu</label></node>
+<node class='person' name='laurence_eusden'><label>Laurence Eusden</label></node>
+<node class='person' name='leonard_welsted'><label>Leonard Welsted</label></node>
+<node class='person' name='lewis_theobald'><label>Lewis Theobald</label></node>
+<node class='person' name='lord_bishop_of_london'><label>Lord Bishop of London</label></node>
+<node class='person' name='martinus_scriblerus'><label>Martinus Scriblerus</label></node>
+<node class='person' name='matthew_concanen'><label>Matthew Concanen</label></node>
+<node class='person' name='matthew_prior'><label>Matthew Prior</label></node>
+<node class='person' name='matthew_tindal'><label>Matthew Tindal</label></node>
+<node class='person' name='philip_dormer_stanhope'><label>Philip Dormer Stanhope</label></node>
+<node class='person' name='richard_bentley'><label>Richard Bentley</label></node>
+<node class='person' name='richard_blackmore'><label>Richard Blackmore</label></node>
+<node class='person' name='richard_flecknoe'><label>Richard Flecknoe</label></node>
+<node class='person' name='richard_savage'><label>Richard Savage</label></node>
+<node class='person' name='robert_walpole'><label>Robert Walpole</label></node>
+<node class='person' name='s_popping'><label>S Popping</label></node>
+<node class='person' name='stephen_duck'><label>Stephen Duck</label></node>
+<node class='person' name='susanna_centlivre'><label>Susanna Centlivre</label></node>
+<node class='person' name='thomas_archer'><label>Thomas Archer</label></node>
+<node class='person' name='thomas_cooke'><label>Thomas Cooke</label></node>
+<node class='person' name='thomas_osborne'><label>Thomas Osborne</label></node>
+<node class='person' name='thomas_rymer'><label>Thomas Rymer</label></node>
+<node class='person' name='thomas_sherlock'><label>Thomas Sherlock</label></node>
+<node class='person' name='thomas_woolston'><label>Thomas Woolston</label></node>
+<node class='person' name='tom_díurfey'><label>Tom DíUrfey</label></node>
+<node class='person' name='william_broome'><label>William Broome</label></node>
+<node class='person' name='william_congreve'><label>William Congreve</label></node>
+<node class='person' name='william_law'><label>William Law</label></node>
+<node class='person' name='william_temple'><label>William Temple</label></node>
+<node class='person' name='william_wycherley'><label>William Wycherley</label></node>
+
+	<edge class='akin_to' source='colley_cibber' target='alexander_pope' />
+<edge class='attacked' source='colley_cibber' target='alexander_pope' />
+<edge class='akin_to' source='colley_cibber' target='barton_booth' />
+<edge class='akin_to' source='colley_cibber' target='caius_gabriel_cibber' />
+<edge class='akin_to' source='colley_cibber' target='camillo_querno' />
+<edge class='akin_to' source='colley_cibber' target='cardell_goodman' />
+<edge class='akin_to' source='colley_cibber' target='charles_fleetwood' />
+<edge class='akin_to' source='colley_cibber' target='dulness' />
+<edge class='akin_to' source='colley_cibber' target='edmund_curll' />
+<edge class='akin_to' source='colley_cibber' target='elkanah_settle' />
+<edge class='dissimilar' source='colley_cibber' target='francis_atterbury' />
+<edge class='akin_to' source='colley_cibber' target='george_etherege' />
+<edge class='akin_to' source='colley_cibber' target='george_i' />
+<edge class='akin_to' source='colley_cibber' target='george_ii' />
+<edge class='akin_to' source='colley_cibber' target='henry_janssen' />
+<edge class='dissimilar' source='colley_cibber' target='isaac_newton' />
+<edge class='dissimilar' source='colley_cibber' target='issac_barrow' />
+<edge class='akin_to' source='colley_cibber' target='john_banks' />
+<edge class='akin_to' source='colley_cibber' target='john_dennis' />
+<edge class='attacked' source='colley_cibber' target='john_dryden' />
+<edge class='dissimilar' source='colley_cibber' target='john_dryden' />
+<edge class='akin_to' source='colley_cibber' target='john_fletcher' />
+<edge class='dissimilar' source='colley_cibber' target='john_garth' />
+<edge class='akin_to' source='colley_cibber' target='john_hervey' />
+<edge class='dissimilar' source='colley_cibber' target='john_locke' />
+<edge class='akin_to' source='colley_cibber' target='john_ozell' />
+<edge class='dissimilar' source='colley_cibber' target='joseph_addison' />
+<edge class='akin_to' source='colley_cibber' target='laurence_eusden' />
+<edge class='akin_to' source='colley_cibber' target='lewis_theobald' />
+<edge class='akin_to' source='colley_cibber' target='lord_bishop_of_london' />
+<edge class='akin_to' source='colley_cibber' target='martinus_scriblerus' />
+<edge class='attacked' source='colley_cibber' target='matthew_prior' />
+<edge class='akin_to' source='colley_cibber' target='philip_dormer_stanhope' />
+<edge class='attacked' source='colley_cibber' target='philip_dormer_stanhope' />
+<edge class='akin_to' source='colley_cibber' target='richard_bentley' />
+<edge class='akin_to' source='colley_cibber' target='robert_walpole' />
+<edge class='akin_to' source='colley_cibber' target='stephen_duck' />
+<edge class='akin_to' source='colley_cibber' target='thomas_archer' />
+<edge class='akin_to' source='colley_cibber' target='thomas_cooke' />
+<edge class='akin_to' source='colley_cibber' target='william_broome' />
+<edge class='dissimilar' source='colley_cibber' target='william_congreve' />
+<edge class='akin_to' source='colley_cibber' target='william_temple' />
+<edge class='dissimilar' source='edmund_curll' target='abel_evans' />
+<edge class='attacked' source='edmund_curll' target='alexander_pope' />
+<edge class='dissimilar' source='edmund_curll' target='alexander_pope' />
+<edge class='akin_to' source='edmund_curll' target='bernard_lintot' />
+<edge class='akin_to' source='edmund_curll' target='charles_gildon' />
+<edge class='akin_to' source='edmund_curll' target='cloacina' />
+<edge class='akin_to' source='edmund_curll' target='colley_cibber' />
+<edge class='akin_to' source='edmund_curll' target='edward_ward' />
+<edge class='defended' source='edmund_curll' target='edward_ward' />
+<edge class='dissimilar' source='edmund_curll' target='edward_young' />
+<edge class='akin_to' source='edmund_curll' target='eliza_haywood' />
+<edge class='akin_to' source='edmund_curll' target='elizabeth_thomas' />
+<edge class='akin_to' source='edmund_curll' target='george_duckett' />
+<edge class='akin_to' source='edmund_curll' target='giles_jacob' />
+<edge class='attacked' source='edmund_curll' target='henry_cromwell' />
+<edge class='akin_to' source='edmund_curll' target='henry_curll' />
+<edge class='akin_to' source='edmund_curll' target='james-moore_smith' />
+<edge class='akin_to' source='edmund_curll' target='john_dennis' />
+<edge class='attacked' source='edmund_curll' target='john_gay' />
+<edge class='akin_to' source='edmund_curll' target='john_henley' />
+<edge class='akin_to' source='edmund_curll' target='john_oldmixon' />
+<edge class='dissimilar' source='edmund_curll' target='jonathan_swift' />
+<edge class='defended' source='edmund_curll' target='joseph_addison' />
+<edge class='akin_to' source='edmund_curll' target='joseph_gay' />
+<edge class='attacked' source='edmund_curll' target='lady_mary_wortley_montagu' />
+<edge class='akin_to' source='edmund_curll' target='leonard_welsted' />
+<edge class='akin_to' source='edmund_curll' target='lewis_theobald' />
+<edge class='attacked' source='edmund_curll' target='lewis_theobald' />
+<edge class='dissimilar' source='edmund_curll' target='lewis_theobald' />
+<edge class='akin_to' source='edmund_curll' target='richard_blackmore' />
+<edge class='akin_to' source='edmund_curll' target='thomas_cooke' />
+<edge class='akin_to' source='edmund_curll' target='thomas_osborne' />
+<edge class='defended' source='edmund_curll' target='william_wycherley' />
+<edge class='unknown' source='eliza_haywood' target='' />
+<edge class='akin_to' source='eliza_haywood' target='anne_tanneguy' />
+<edge class='akin_to' source='eliza_haywood' target='edmund_curll' />
+<edge class='akin_to' source='eliza_haywood' target='edward_ward' />
+<edge class='akin_to' source='eliza_haywood' target='elisha_kirkall' />
+<edge class='akin_to' source='eliza_haywood' target='john_dennis' />
+<edge class='akin_to' source='eliza_haywood' target='john_oldmixon' />
+<edge class='akin_to' source='eliza_haywood' target='leonard_welsted' />
+<edge class='akin_to' source='eliza_haywood' target='lewis_theobald' />
+<edge class='unknown' source='eliza_haywood' target='richard_savage' />
+<edge class='unknown' source='giles_jacob' target='alexander_pope' />
+<edge class='unknown' source='giles_jacob' target='ambrose_phillips' />
+<edge class='unknown' source='giles_jacob' target='edward_ward' />
+<edge class='unknown' source='giles_jacob' target='eustace_budgell' />
+<edge class='unknown' source='giles_jacob' target='john_dennis' />
+<edge class='unknown' source='giles_jacob' target='john_gay' />
+<edge class='unknown' source='giles_jacob' target='john_oldmixon' />
+<edge class='unknown' source='giles_jacob' target='john_ozell' />
+<edge class='unknown' source='giles_jacob' target='laurence_eusden' />
+<edge class='unknown' source='giles_jacob' target='lewis_theobald' />
+<edge class='unknown' source='giles_jacob' target='susanna_centlivre' />
+<edge class='attacked' source='john_dennis' target='a_boyer' />
+<edge class='akin_to' source='john_dennis' target='a_moore' />
+<edge class='attacked' source='john_dennis' target='alexander_pope' />
+<edge class='akin_to' source='john_dennis' target='barton_booth' />
+<edge class='defended' source='john_dennis' target='bavius' />
+<edge class='akin_to' source='john_dennis' target='bernard_lintot' />
+<edge class='akin_to' source='john_dennis' target='charles_gildon' />
+<edge class='akin_to' source='john_dennis' target='colley_cibber' />
+<edge class='akin_to' source='john_dennis' target='edmund_curll' />
+<edge class='akin_to' source='john_dennis' target='elkanah_settle' />
+<edge class='defended' source='john_dennis' target='george_ducket' />
+<edge class='akin_to' source='john_dennis' target='george_duckett' />
+<edge class='akin_to' source='john_dennis' target='giles_jacob' />
+<edge class='attacked' source='john_dennis' target='hilkiah_bedford' />
+<edge class='attacked' source='john_dennis' target='jeremy_collier' />
+<edge class='akin_to' source='john_dennis' target='john_anstis' />
+<edge class='attacked' source='john_dennis' target='john_dryden' />
+<edge class='attacked' source='john_dennis' target='john_gay' />
+<edge class='akin_to' source='john_dennis' target='john_oldmixon' />
+<edge class='akin_to' source='john_dennis' target='leonard_welsted' />
+<edge class='defended' source='john_dennis' target='leonard_welsted' />
+<edge class='akin_to' source='john_dennis' target='lewis_theobald' />
+<edge class='akin_to' source='john_dennis' target='matthew_concanen' />
+<edge class='akin_to' source='john_dennis' target='richard_blackmore' />
+<edge class='akin_to' source='john_dennis' target='s_popping' />
+<edge class='akin_to' source='john_dennis' target='thomas_cooke' />
+<edge class='akin_to' source='john_dennis' target='thomas_rymer' />
+<edge class='akin_to' source='john_dennis' target='tom_díurfey' />
+<edge class='attacked' source='john_dennis' target='william_law' />
+<edge class='akin_to' source='john_henley' target='benjamin_hoadly' />
+<edge class='akin_to' source='john_henley' target='edmund_gibson' />
+<edge class='akin_to' source='john_henley' target='frances_hare' />
+<edge class='akin_to' source='john_henley' target='james_ralph' />
+<edge class='akin_to' source='john_henley' target='john_toland' />
+<edge class='akin_to' source='john_henley' target='leonard_welsted' />
+<edge class='akin_to' source='john_henley' target='matthew_tindal' />
+<edge class='akin_to' source='john_henley' target='richard_blackmore' />
+<edge class='akin_to' source='john_henley' target='richard_flecknoe' />
+<edge class='akin_to' source='john_henley' target='thomas_sherlock' />
+<edge class='akin_to' source='john_henley' target='thomas_woolston' />
+
+</graph>
+
+</GraphXML>
+

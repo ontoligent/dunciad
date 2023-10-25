@@ -1,0 +1,23 @@
+digraph G {
+rankdir=LR
+node [shape=plaintext]
+ANNE_TANNEGUYLE_FEVRE_DACIER [label=< Anne<br/>Tanneguy-Le<br/>Fevre<br/>Dacier >]
+EDMUND_CURLL [label=< Edmund<br/>Curll >]
+EDWARD_WARD [label=< Edward<br/>Ward >]
+ELISHA_KIRKALL [label=< Elisha<br/>Kirkall >]
+ELIZA_HAYWOOD [label=< Eliza<br/>Haywood >]
+JOHN_DENNIS [label=< John<br/>Dennis >]
+JOHN_OLDMIXON [label=< John<br/>Oldmixon >]
+LEONARD_WELSTED [label=< Leonard<br/>Welsted >]
+LEWIS_THEOBALD [label=< Lewis<br/>Theobald >]
+RICHARD_SAVAGE [label=< Richard<br/>Savage >]
+ELIZA_HAYWOOD -> ANNE_TANNEGUYLE_FEVRE_DACIER [color=green weight=1]
+ELIZA_HAYWOOD -> EDMUND_CURLL [color=green weight=1]
+ELIZA_HAYWOOD -> EDWARD_WARD [color=green weight=1]
+ELIZA_HAYWOOD -> ELISHA_KIRKALL [color=green weight=1]
+ELIZA_HAYWOOD -> JOHN_DENNIS [color=green weight=1]
+ELIZA_HAYWOOD -> JOHN_OLDMIXON [color=green weight=1]
+ELIZA_HAYWOOD -> LEONARD_WELSTED [color=green weight=1]
+ELIZA_HAYWOOD -> LEWIS_THEOBALD [color=green weight=1]
+ELIZA_HAYWOOD -> RICHARD_SAVAGE [color=orange weight=1]
+}

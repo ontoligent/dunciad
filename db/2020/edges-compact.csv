@@ -1,0 +1,173 @@
+person,referent,relation,rel,log_rel
+Colley Cibber,Alexander Pope,Akin to,1,1
+Colley Cibber,Alexander Pope,Attacked,9,4
+Colley Cibber,Barton Booth,Akin to,1,1
+Colley Cibber,Caius Gabriel Cibber,Akin to,2,2
+Colley Cibber,Camillo Querno,Akin to,2,2
+Colley Cibber,Cardell Goodman,Akin to,1,1
+Colley Cibber,Charles Fleetwood,Akin to,1,1
+Colley Cibber,Dulness,Akin to,9,4
+Colley Cibber,Edmund Curll,Akin to,2,2
+Colley Cibber,Elkanah Settle,Akin to,3,3
+Colley Cibber,Francis Atterbury,Dissimilar,1,1
+Colley Cibber,George Etherege,Akin to,1,1
+Colley Cibber,George I,Akin to,1,1
+Colley Cibber,George II,Akin to,3,3
+Colley Cibber,Henry Janssen,Akin to,1,1
+Colley Cibber,Isaac Newton,Dissimilar,1,1
+Colley Cibber,Issac Barrow,Dissimilar,1,1
+Colley Cibber,John Banks,Akin to,1,1
+Colley Cibber,John Dennis,Akin to,2,2
+Colley Cibber,John Dryden,Attacked,1,1
+Colley Cibber,John Dryden,Dissimilar,1,1
+Colley Cibber,John Fletcher,Akin to,1,1
+Colley Cibber,John Garth,Dissimilar,1,1
+Colley Cibber,John Hervey,Akin to,1,1
+Colley Cibber,John Locke,Dissimilar,1,1
+Colley Cibber,John Ozell,Akin to,2,2
+Colley Cibber,Joseph Addison,Dissimilar,1,1
+Colley Cibber,Laurence Eusden,Akin to,3,3
+Colley Cibber,Lewis Theobald,Akin to,3,3
+Colley Cibber,Lord Bishop of London,Akin to,1,1
+Colley Cibber,Martinus Scriblerus,Akin to,2,2
+Colley Cibber,Matthew Prior,Attacked,1,1
+Colley Cibber,Philip Dormer Stanhope,Akin to,1,1
+Colley Cibber,Philip Dormer Stanhope,Attacked,1,1
+Colley Cibber,Richard Bentley,Akin to,2,2
+Colley Cibber,Robert Walpole,Akin to,2,2
+Colley Cibber,Stephen Duck,Akin to,1,1
+Colley Cibber,Thomas Archer,Akin to,1,1
+Colley Cibber,Thomas Cooke,Akin to,1,1
+Colley Cibber,William Broome,Akin to,1,1
+Colley Cibber,William Congreve,Dissimilar,1,1
+Colley Cibber,William Temple,Akin to,1,1
+Edmund Curll,Abel Evans,Dissimilar,1,1
+Edmund Curll,Abel Roper,Akin to,3,3
+Edmund Curll,Alexander Pope,Attacked,11,4
+Edmund Curll,Alexander Pope,Dissimilar,1,1
+Edmund Curll,Ambrose Phillips,Akin to,1,1
+Edmund Curll,Bernard Lintot,Akin to,5,3
+Edmund Curll,Besaleel Morris,Akin to,3,3
+Edmund Curll,Charles Gildon,Akin to,1,1
+Edmund Curll,Cloacina,Akin to,1,1
+Edmund Curll,Colley Cibber,Akin to,1,1
+Edmund Curll,Colley Cibber,Dissimilar,1,1
+Edmund Curll,Daniel Defoe,Akin to,1,1
+Edmund Curll,Edward Ward,Akin to,1,1
+Edmund Curll,Edward Ward,Defended,1,1
+Edmund Curll,Edward Young,Dissimilar,1,1
+Edmund Curll,Eliza Haywood,Akin to,2,2
+Edmund Curll,Elizabeth Thomas,Akin to,3,3
+Edmund Curll,George Duckett,Akin to,1,1
+Edmund Curll,George Ridpath,Akin to,2,2
+Edmund Curll,Giles Jacob,Akin to,1,1
+Edmund Curll,Henry Cromwell,Attacked,1,1
+Edmund Curll,Henry Curll,Akin to,1,1
+Edmund Curll,Isaac Barrow,Dissimilar,1,1
+Edmund Curll,Isaac Newton,Dissimilar,1,1
+Edmund Curll,James Moore Smythe,Akin to,1,1
+Edmund Curll,James-Moore Smith,Akin to,1,1
+Edmund Curll,John Arbuthnot,Attacked,1,1
+Edmund Curll,John Atterbury,Dissimilar,1,1
+Edmund Curll,John Dennis,Akin to,8,4
+Edmund Curll,John Dryden,Dissimilar,1,1
+Edmund Curll,John Dunton,Akin to,2,2
+Edmund Curll,John Durant Breval,Akin to,3,3
+Edmund Curll,John Gay,Attacked,4,3
+Edmund Curll,John Henley,Akin to,1,1
+Edmund Curll,John Locke,Dissimilar,1,1
+Edmund Curll,John Oldmixon,Akin to,2,2
+Edmund Curll,John Tutchin,Akin to,2,2
+Edmund Curll,Jonathan Swift,Attacked,2,2
+Edmund Curll,Jonathan Swift,Dissimilar,2,2
+Edmund Curll,Joseph Addison,Attacked,2,2
+Edmund Curll,Joseph Addison,Defended,1,1
+Edmund Curll,Joseph Addison,Dissimilar,1,1
+Edmund Curll,Joseph Gay,Akin to,3,3
+Edmund Curll,Joseph Gay (aka John Durant Breval),Akin to,1,1
+Edmund Curll,Lady Mary Wortley Montagu,Akin to,2,2
+Edmund Curll,Leonard Welsted,Akin to,2,2
+Edmund Curll,Lewis Theobald,Akin to,4,3
+Edmund Curll,Lewis Theobald,Attacked,2,2
+Edmund Curll,Lewis Theobald,Dissimilar,1,1
+Edmund Curll,Matthew Concanen,Akin to,2,2
+Edmund Curll,Matthew Prior,Attacked,3,3
+Edmund Curll,Richard Blackmore,Akin to,3,3
+Edmund Curll,Samuel Garth,Attacked,1,1
+Edmund Curll,Samuel Garth,Dissimilar,1,1
+Edmund Curll,Thomas Cooke,Akin to,3,3
+Edmund Curll,Thomas Osborne,Akin to,1,1
+Edmund Curll,Thomas Warner,Akin to,1,1
+Edmund Curll,Toussaint Edmond de Saint-Mard,Dissimilar,1,1
+Edmund Curll,White Kenneth,Attacked,1,1
+Edmund Curll,William Bond,Akin to,1,1
+Edmund Curll,William Bond ,Akin to,2,2
+Edmund Curll,William Cavendish,Attacked,1,1
+Edmund Curll,William Congreve,Attacked,1,1
+Edmund Curll,William Congreve,Dissimilar,1,1
+Edmund Curll,William Mears,Akin to,2,2
+Edmund Curll,William Wilkins,Akin to,1,1
+Edmund Curll,William Wycherley,Defended,1,1
+Eliza Haywood,Anne Tanneguy-Le Fevre Dacier,Akin to,1,1
+Eliza Haywood,Edmund Curll,Akin to,1,1
+Eliza Haywood,Edward Ward,Akin to,1,1
+Eliza Haywood,Elisha Kirkall,Akin to,1,1
+Eliza Haywood,John Dennis,Akin to,1,1
+Eliza Haywood,John Oldmixon,Akin to,1,1
+Eliza Haywood,Leonard Welsted,Akin to,1,1
+Eliza Haywood,Lewis Theobald,Akin to,1,1
+Eliza Haywood,Richard Savage,Dissimilar,1,1
+Giles Jacob,Alexander Pope,Attacked,4,3
+Giles Jacob,Alexander Pope,Defended,1,1
+Giles Jacob,Ambrose Phillips,Defended,1,1
+Giles Jacob,Edmund Curll,Defended,1,1
+Giles Jacob,Edward Ward,Defended,1,1
+Giles Jacob,Eustace Budgell,Defended,1,1
+Giles Jacob,John Dennis,Akin to,2,2
+Giles Jacob,John Dennis,Defended,2,2
+Giles Jacob,John Gay,Attacked,1,1
+Giles Jacob,John Oldmixon,Defended,1,1
+Giles Jacob,John Ozell,Defended,2,2
+Giles Jacob,Laurence Eusden,Defended,1,1
+Giles Jacob,Lewis Theobald,Defended,1,1
+Giles Jacob,Susanna Centlivre,Defended,1,1
+John Dennis,A Boyer,Attacked,1,1
+John Dennis,A Moore,Akin to,1,1
+John Dennis,Alexander Pope,Attacked,56,7
+John Dennis,B.B.,Akin to,1,1
+John Dennis,Bavius,Defended,1,1
+John Dennis,Bernard Lintot,Akin to,2,2
+John Dennis,Charles Gildon,Akin to,5,3
+John Dennis,Colley Cibber,Akin to,2,2
+John Dennis,Edmund Curll,Akin to,3,3
+John Dennis,Elkanah Settle,Akin to,1,1
+John Dennis,George Ducket,Defended,1,1
+John Dennis,George Duckett,Akin to,1,1
+John Dennis,Giles Jacob,Akin to,3,3
+John Dennis,Hilkiah Bedford,Attacked,1,1
+John Dennis,Jeremy Collier,Attacked,1,1
+John Dennis,John Anstis,Akin to,1,1
+John Dennis,John Dryden,Attacked,2,2
+John Dennis,John Gay,Attacked,1,1
+John Dennis,John Oldmixon,Akin to,2,2
+John Dennis,Leonard Welsted,Akin to,1,1
+John Dennis,Leonard Welsted,Defended,1,1
+John Dennis,Lewis Theobald,Akin to,5,3
+John Dennis,Matthew Concanen,Akin to,1,1
+John Dennis,Richard Blackmore,Akin to,4,3
+John Dennis,S Popping,Akin to,1,1
+John Dennis,Thomas Cooke,Akin to,1,1
+John Dennis,Thomas Rymer,Akin to,1,1
+John Dennis,Tom DíUrfey,Akin to,2,2
+John Dennis,William Law,Attacked,4,3
+John Henley,Benjamin Hoadly,Akin to,1,1
+John Henley,Edmund Gibson,Akin to,1,1
+John Henley,Frances Hare,Akin to,1,1
+John Henley,James Ralph,Akin to,2,2
+John Henley,John Toland,Akin to,1,1
+John Henley,Leonard Welsted,Akin to,1,1
+John Henley,Matthew Tindal,Akin to,1,1
+John Henley,Richard Blackmore,Akin to,1,1
+John Henley,Richard Flecknoe,Akin to,1,1
+John Henley,Thomas Sherlock,Akin to,1,1
+John Henley,Thomas Woolston,Akin to,1,1

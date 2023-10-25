@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE GraphXML SYSTEM "GraphXML.dtd">
+<GraphXML>
+<graph id="{$graph_id}">
+
+<line tag="node" class="image" colour="blue" />
+
+<fill tag="node" class="myClass" colour="white" />
+
+<!-- Here come your nodes -->
+<node class='{}' name='{}'><label>{}</label><dataref><ref xlink:show='new' xlink:href='{}'/></dataref></node>
+
+<!-- Here come the edges -->
+<edge source='{}' target='{}' />
+
+</graph>
+
+</GraphXML>
