@@ -1,5 +1,5 @@
 # %%
-images = !ls images/*.png
+images = !ls images/*.svg
 for image in images:
     print(f"## {image.split('/')[1].split('.')[0].replace('_', ' ')}")
     print(f"![]({image})")
