@@ -487,10 +487,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div class="cell" data-tags="[]" data-execution_count="13">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>edges.person.value_counts()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="13">
+<pre><code>person
+Edmund Curll     115
+John Dennis      109
+Colley Cibber     71
+Giles Jacob       18
+John Henley        8
+Name: count, dtype: int64</code></pre>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="15">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>edges</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="15">
+</div>
+<div class="cell" data-tags="[]" data-execution_count="14">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>edges</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="14">
 
 <div>
 
@@ -612,27 +621,129 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
+<div class="cell" data-tags="[]" data-execution_count="15">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>edges.loc[edges.referent.<span class="bu">str</span>.contains(<span class="st">','</span>), <span class="st">'referent'</span>] <span class="op">=</span> edges.loc[edges.referent.<span class="bu">str</span>.contains(<span class="st">','</span>)].referent.<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="ss">f"</span><span class="sc">{</span>x<span class="sc">.</span>split(<span class="st">','</span>)[<span class="dv">1</span>]<span class="sc">.</span>strip()<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>x<span class="sc">.</span>split(<span class="st">','</span>)[<span class="dv">0</span>]<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <div class="cell" data-tags="[]" data-execution_count="16">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>edges.loc[edges.referent.<span class="bu">str</span>.contains(<span class="st">','</span>), <span class="st">'referent'</span>] <span class="op">=</span> edges.loc[edges.referent.<span class="bu">str</span>.contains(<span class="st">','</span>)].referent.<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="ss">f"</span><span class="sc">{</span>x<span class="sc">.</span>split(<span class="st">','</span>)[<span class="dv">1</span>]<span class="sc">.</span>strip()<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>x<span class="sc">.</span>split(<span class="st">','</span>)[<span class="dv">0</span>]<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>edges.loc[edges.referent <span class="op">==</span> <span class="st">'Edmund Curl'</span>, <span class="st">'referent'</span>] <span class="op">=</span> <span class="st">'Edmund Curll'</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="17">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>edges.loc[edges.referent <span class="op">==</span> <span class="st">'Edmund Curl'</span>, <span class="st">'referent'</span>] <span class="op">=</span> <span class="st">'Edmund Curll'</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-tags="[]" data-execution_count="30">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>.join(edges.referent.value_counts().sort_index().index.to_list()))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>(possibly) Benjamin Hoadly
+A. Moore
+Abel Boyer
+Abel Evans
+Abel Roper
+Alexander Pope
+Ambrose Phillips
+B.B.?
+Barton Booth
+Bavius
+Bernard Lintot
+Besaleel Morris
+Caius Gabriel Cibber
+Camillo Querno
+Cardell Goodman
+Charles Fleetwood
+Charles Gildon
+Colley Cibber
+Daniel Defoe
+Dulness
+Edmund Curll
+Edmund Gibson
+Edward Ward
+Edward Young
+Eliza Haywood
+Elizabeth Thomas
+Elkanah Settle
+Eustace Budgell
+Frances Hare
+Francis Atterbury
+George Ducket
+George Duckett
+George Etherege
+George I
+George II
+George Ridpath
+Giles Jacob
+Goddess of the Common-sewers Cloacina
+Henry Cromwell
+Henry Curll
+Henry Janssen
+Hilkiah (should be Arthur Bedford) Bedford
+Isaac Barrow
+Isaac Newton
+James Moore Smythe
+James Ralph
+Jeremy Collier
+John Anstis
+John Atterbury
+John Banks
+John Dennis
+John Dryden
+John Dunton
+John Durant Breval
+John Fletcher
+John Garth
+John Gay
+John Henley
+John Hervey
+John Locke
+John Oldmixon
+John Ozell
+John Tutchin
+Jonathan Swift
+Joseph Addison
+Joseph Gay (aka John Durant Breval)
+Lady Mary Wortley Montagu
+Laurence Eusden
+Leonard Welsted
+Lewis Theobald
+Lord Bishop of London
+Martinus Scriblerus
+Matthew Concanen
+Matthew Prior
+Philip Dormer Stanhope
+Richard Bentley
+Richard Blackmore
+Richard Flecknoe
+Robert Walpole
+S. Popping
+Samuel Garth
+Stephen Duck
+Susanna Centlivre
+Thomas Archer
+Thomas Cooke
+Thomas Osborne
+Thomas Rymer
+Thomas Sherlock
+Thomas Warner
+Tom D’Urfey
+Toussaint Edmond de Saint-Mard
+William Bond
+William Broome
+William Congreve
+William Law
+William Mears
+William Temple
+William Wilkins
+William Wycherley
+…</code></pre>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="18">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># print('\n'.join(edges.referent.value_counts().sort_index().index.to_list()))</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 </section>
 <section id="extract-relations" class="level1">
 <h1>Extract Relations</h1>
-<div class="cell" data-tags="[]" data-execution_count="19">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>R <span class="op">=</span> edges.value_counts(<span class="st">'relation_id'</span>).to_frame(<span class="st">'n'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-tags="[]" data-execution_count="18">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>R <span class="op">=</span> edges.value_counts(<span class="st">'relation_id'</span>).to_frame(<span class="st">'n'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="20">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>R[<span class="st">'color'</span>] <span class="op">=</span> [<span class="st">'green'</span>,<span class="st">'red'</span>,<span class="st">'orange'</span>,<span class="st">'blue'</span>]</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>R[<span class="st">'label'</span>] <span class="op">=</span> R.index.<span class="bu">str</span>.replace(<span class="st">'_'</span>, <span class="st">' '</span>)</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>R</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="20">
+<div class="cell" data-tags="[]" data-execution_count="19">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>R[<span class="st">'color'</span>] <span class="op">=</span> [<span class="st">'green'</span>,<span class="st">'red'</span>,<span class="st">'orange'</span>,<span class="st">'blue'</span>]</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>R[<span class="st">'label'</span>] <span class="op">=</span> R.index.<span class="bu">str</span>.replace(<span class="st">'_'</span>, <span class="st">' '</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>R</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="19">
 
 <div>
 
@@ -684,18 +795,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="extract-nodes" class="level1">
 <h1>Extract Nodes</h1>
-<div class="cell" data-tags="[]" data-execution_count="21">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract and format Nodes</span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> pd.concat([edges.person, edges.referent]).value_counts().to_frame(<span class="st">'n'</span>)</span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> N.reset_index().rename(columns<span class="op">=</span>{<span class="st">'index'</span>:<span class="st">'full_name'</span>})</span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>N[<span class="st">'index'</span>] <span class="op">=</span> N[<span class="st">'full_name'</span>].<span class="bu">str</span>.replace(<span class="st">' '</span>, <span class="st">'_'</span>).<span class="bu">str</span>.upper().<span class="bu">str</span>.replace(<span class="vs">r"\W"</span>, <span class="st">""</span>, regex<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> N.set_index(<span class="st">'index'</span>)</span>
-<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>N[<span class="st">'label'</span>] <span class="op">=</span> N[<span class="st">'full_name'</span>].<span class="bu">str</span>.replace(<span class="st">' '</span>, <span class="st">'&lt;br/&gt;'</span>)</span>
-<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>N[<span class="st">'dot'</span>] <span class="op">=</span> N.<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="ss">f"</span><span class="sc">{</span>x<span class="sc">.</span>name<span class="sc">}</span><span class="ss"> [label=&lt; </span><span class="sc">{</span>x<span class="sc">.</span>label<span class="sc">}</span><span class="ss"> &gt;]"</span>, axis<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-tags="[]" data-execution_count="20">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract and format Nodes</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> pd.concat([edges.person, edges.referent]).value_counts().to_frame(<span class="st">'n'</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> N.reset_index().rename(columns<span class="op">=</span>{<span class="st">'index'</span>:<span class="st">'full_name'</span>})</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>N[<span class="st">'index'</span>] <span class="op">=</span> N[<span class="st">'full_name'</span>].<span class="bu">str</span>.replace(<span class="st">' '</span>, <span class="st">'_'</span>).<span class="bu">str</span>.upper().<span class="bu">str</span>.replace(<span class="vs">r"\W"</span>, <span class="st">""</span>, regex<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> N.set_index(<span class="st">'index'</span>)</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>N[<span class="st">'label'</span>] <span class="op">=</span> N[<span class="st">'full_name'</span>].<span class="bu">str</span>.replace(<span class="st">' '</span>, <span class="st">'&lt;br/&gt;'</span>)</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>N[<span class="st">'dot'</span>] <span class="op">=</span> N.<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="ss">f"</span><span class="sc">{</span>x<span class="sc">.</span>name<span class="sc">}</span><span class="ss"> [label=&lt; </span><span class="sc">{</span>x<span class="sc">.</span>label<span class="sc">}</span><span class="ss"> &gt;]"</span>, axis<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="22">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>N.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="22">
+<div class="cell" data-tags="[]" data-execution_count="21">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>N.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="21">
 
 <div>
 
@@ -760,16 +871,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="extract-edges" class="level1">
 <h1>Extract Edges</h1>
-<div class="cell" data-tags="[]" data-execution_count="23">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>edges[<span class="st">'person_id'</span>] <span class="op">=</span> edges.person.<span class="bu">map</span>(N.reset_index().set_index(<span class="st">'full_name'</span>)[<span class="st">'index'</span>])</span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>edges[<span class="st">'referent_id'</span>] <span class="op">=</span> edges.referent.<span class="bu">map</span>(N.reset_index().set_index(<span class="st">'full_name'</span>)[<span class="st">'index'</span>])</span>
-<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="co"># edges['relation_id'] = edges.relation.str.lower().str.replace(' ', '_', regex=True)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-tags="[]" data-execution_count="22">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>edges[<span class="st">'person_id'</span>] <span class="op">=</span> edges.person.<span class="bu">map</span>(N.reset_index().set_index(<span class="st">'full_name'</span>)[<span class="st">'index'</span>])</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>edges[<span class="st">'referent_id'</span>] <span class="op">=</span> edges.referent.<span class="bu">map</span>(N.reset_index().set_index(<span class="st">'full_name'</span>)[<span class="st">'index'</span>])</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co"># edges['relation_id'] = edges.relation.str.lower().str.replace(' ', '_', regex=True)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="24">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract Edges</span></span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>E <span class="op">=</span> edges.groupby([<span class="st">'person_id'</span>,<span class="st">'referent_id'</span>,<span class="st">'relation_id'</span>]).relation_id.count().to_frame(<span class="st">'n'</span>)</span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>E.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="24">
+<div class="cell" data-tags="[]" data-execution_count="23">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract Edges</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>E <span class="op">=</span> edges.groupby([<span class="st">'person_id'</span>,<span class="st">'referent_id'</span>,<span class="st">'relation_id'</span>]).relation_id.count().to_frame(<span class="st">'n'</span>)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>E.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="23">
 
 <div>
 
@@ -820,12 +931,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="25">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>E[<span class="st">'dot'</span>] <span class="op">=</span> E.<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="ss">f"</span><span class="sc">{</span>x<span class="sc">.</span>name[<span class="dv">0</span>]<span class="sc">}</span><span class="ss"> -&gt; </span><span class="sc">{</span>x<span class="sc">.</span>name[<span class="dv">1</span>]<span class="sc">}</span><span class="ss"> [color=</span><span class="sc">{</span>R<span class="sc">.</span>loc[x.name[<span class="dv">2</span>], <span class="st">'color'</span>]<span class="sc">}</span><span class="ss"> weight=</span><span class="sc">{</span>x<span class="sc">.</span>n<span class="op">**</span><span class="dv">2</span><span class="sc">}</span><span class="ss">]"</span>, axis<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-tags="[]" data-execution_count="24">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>E[<span class="st">'dot'</span>] <span class="op">=</span> E.<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="ss">f"</span><span class="sc">{</span>x<span class="sc">.</span>name[<span class="dv">0</span>]<span class="sc">}</span><span class="ss"> -&gt; </span><span class="sc">{</span>x<span class="sc">.</span>name[<span class="dv">1</span>]<span class="sc">}</span><span class="ss"> [color=</span><span class="sc">{</span>R<span class="sc">.</span>loc[x.name[<span class="dv">2</span>], <span class="st">'color'</span>]<span class="sc">}</span><span class="ss"> weight=</span><span class="sc">{</span>x<span class="sc">.</span>n<span class="op">**</span><span class="dv">2</span><span class="sc">}</span><span class="ss">]"</span>, axis<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="26">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>E</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="26">
+<div class="cell" data-tags="[]" data-execution_count="25">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>E</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="25">
 
 <div>
 
@@ -925,48 +1036,48 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="draw-graphs" class="level1">
 <h1>Draw Graphs</h1>
+<div class="cell" data-tags="[]" data-execution_count="26">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> create_graph(persons:[]<span class="op">=</span>[], mode<span class="op">=</span><span class="st">'fdp'</span>):</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">global</span> E, N    </span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create subsets of N and E</span></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>    E1 <span class="op">=</span> E.loc[persons] <span class="cf">if</span> <span class="bu">len</span>(persons) <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">else</span> E</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>    node_idx <span class="op">=</span> <span class="bu">list</span>(<span class="bu">set</span>(persons <span class="op">+</span> E1.reset_index()[<span class="st">'referent_id'</span>].to_list()))</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>    N1 <span class="op">=</span> N.loc[node_idx].sort_index()</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert to Graphviz</span></span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">=</span> <span class="st">"digraph G {</span><span class="ch">\n</span><span class="st">"</span></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">+=</span> <span class="st">"rankdir=LR</span><span class="ch">\n</span><span class="st">"</span></span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">+=</span> <span class="st">"node [shape=plaintext]</span><span class="ch">\n</span><span class="st">"</span></span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">+=</span> <span class="st">'</span><span class="ch">\n</span><span class="st">'</span>.join(N1[<span class="st">'dot'</span>].values)</span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">+=</span> <span class="st">"</span><span class="ch">\n</span><span class="st">"</span></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">+=</span> <span class="st">'</span><span class="ch">\n</span><span class="st">'</span>.join(E1[<span class="st">'dot'</span>].values)</span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">+=</span> <span class="st">"</span><span class="ch">\n</span><span class="st">}"</span></span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># print(graph_text)</span></span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Print to file</span></span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a>    file_name <span class="op">=</span> <span class="st">'_'</span>.join(persons) <span class="op">+</span> <span class="st">".dot"</span> <span class="cf">if</span> <span class="bu">len</span>(persons) <span class="cf">else</span> <span class="st">"images/all.dot"</span></span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a>    file_name <span class="op">=</span> image_dir <span class="op">+</span> <span class="st">"/"</span> <span class="op">+</span> file_name</span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(file_name)</span>
+<span id="cb28-24"><a href="#cb28-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(file_name, <span class="st">"w"</span>) <span class="im">as</span> outfile:</span>
+<span id="cb28-25"><a href="#cb28-25" aria-hidden="true" tabindex="-1"></a>        outfile.write(graph_text)</span>
+<span id="cb28-26"><a href="#cb28-26" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-27"><a href="#cb28-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="bu">format</span> <span class="kw">in</span> <span class="st">"jpeg svg png"</span>.split():</span>
+<span id="cb28-28"><a href="#cb28-28" aria-hidden="true" tabindex="-1"></a>        os.system(<span class="ss">f"circo -K</span><span class="sc">{</span>mode<span class="sc">}</span><span class="ss"> -Tjpeg </span><span class="sc">{</span>file_name<span class="sc">}</span><span class="ss"> &gt; </span><span class="sc">{</span>file_name<span class="sc">}</span><span class="ss">_</span><span class="sc">{</span>mode<span class="sc">}</span><span class="ss">.</span><span class="sc">{</span><span class="bu">format</span><span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <div class="cell" data-tags="[]" data-execution_count="27">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> create_graph(persons:[]<span class="op">=</span>[], mode<span class="op">=</span><span class="st">'fdp'</span>):</span>
-<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">global</span> E, N    </span>
-<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create subsets of N and E</span></span>
-<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    E1 <span class="op">=</span> E.loc[persons] <span class="cf">if</span> <span class="bu">len</span>(persons) <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">else</span> E</span>
-<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    node_idx <span class="op">=</span> <span class="bu">list</span>(<span class="bu">set</span>(persons <span class="op">+</span> E1.reset_index()[<span class="st">'referent_id'</span>].to_list()))</span>
-<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>    N1 <span class="op">=</span> N.loc[node_idx].sort_index()</span>
-<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert to Graphviz</span></span>
-<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">=</span> <span class="st">"digraph G {</span><span class="ch">\n</span><span class="st">"</span></span>
-<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">+=</span> <span class="st">"rankdir=LR</span><span class="ch">\n</span><span class="st">"</span></span>
-<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">+=</span> <span class="st">"node [shape=plaintext]</span><span class="ch">\n</span><span class="st">"</span></span>
-<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">+=</span> <span class="st">'</span><span class="ch">\n</span><span class="st">'</span>.join(N1[<span class="st">'dot'</span>].values)</span>
-<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">+=</span> <span class="st">"</span><span class="ch">\n</span><span class="st">"</span></span>
-<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">+=</span> <span class="st">'</span><span class="ch">\n</span><span class="st">'</span>.join(E1[<span class="st">'dot'</span>].values)</span>
-<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a>    graph_text <span class="op">+=</span> <span class="st">"</span><span class="ch">\n</span><span class="st">}"</span></span>
-<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># print(graph_text)</span></span>
-<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb26-20"><a href="#cb26-20" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Print to file</span></span>
-<span id="cb26-21"><a href="#cb26-21" aria-hidden="true" tabindex="-1"></a>    file_name <span class="op">=</span> <span class="st">'_'</span>.join(persons) <span class="op">+</span> <span class="st">".dot"</span> <span class="cf">if</span> <span class="bu">len</span>(persons) <span class="cf">else</span> <span class="st">"images/all.dot"</span></span>
-<span id="cb26-22"><a href="#cb26-22" aria-hidden="true" tabindex="-1"></a>    file_name <span class="op">=</span> image_dir <span class="op">+</span> <span class="st">"/"</span> <span class="op">+</span> file_name</span>
-<span id="cb26-23"><a href="#cb26-23" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(file_name)</span>
-<span id="cb26-24"><a href="#cb26-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(file_name, <span class="st">"w"</span>) <span class="im">as</span> outfile:</span>
-<span id="cb26-25"><a href="#cb26-25" aria-hidden="true" tabindex="-1"></a>        outfile.write(graph_text)</span>
-<span id="cb26-26"><a href="#cb26-26" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb26-27"><a href="#cb26-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="bu">format</span> <span class="kw">in</span> <span class="st">"jpeg svg png"</span>.split():</span>
-<span id="cb26-28"><a href="#cb26-28" aria-hidden="true" tabindex="-1"></a>        os.system(<span class="ss">f"circo -K</span><span class="sc">{</span>mode<span class="sc">}</span><span class="ss"> -Tjpeg </span><span class="sc">{</span>file_name<span class="sc">}</span><span class="ss"> &gt; </span><span class="sc">{</span>file_name<span class="sc">}</span><span class="ss">_</span><span class="sc">{</span>mode<span class="sc">}</span><span class="ss">.</span><span class="sc">{</span><span class="bu">format</span><span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>persons <span class="op">=</span> E.index.levels[<span class="dv">0</span>].to_list()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-tags="[]" data-execution_count="28">
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>persons <span class="op">=</span> E.index.levels[<span class="dv">0</span>].to_list()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell" data-tags="[]" data-execution_count="29">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>create_graph(persons)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>create_graph(persons)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>images/COLLEY_CIBBER_EDMUND_CURLL_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot</code></pre>
 </div>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="30">
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> person <span class="kw">in</span> persons:</span>
-<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>    create_graph([person])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-tags="[]" data-execution_count="29">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> person <span class="kw">in</span> persons:</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    create_graph([person])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>images/COLLEY_CIBBER.dot
 images/EDMUND_CURLL.dot

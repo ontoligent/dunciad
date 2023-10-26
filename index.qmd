@@ -3,6 +3,14 @@
 
 # Images 
 
+| relation | color |
+|----------|-------|
+| Akin to  | <span style="color: green;">&nbsp;</span> |
+| Attacked  | <span style="color: red;">&nbsp;</span> |
+| Dissimilar  | <span style="color: orange;">&nbsp;</span> |
+| Defended  | <span style="color: blue;">&nbsp;</span> |
+
+
 ## COLLEY CIBBER
 ![](images/COLLEY_CIBBER.dot_fdp.png)
 
