@@ -11,8 +11,7 @@ website:
         text: Home
       - href: MakeGraphs.ipynb
         text: Graphs
-      - about.qmd
-      - href: images/COLLEY_CIBBER_EDMUND_CURLL_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot_fdp.svg
+      - href: images/test.svg
         text: SVG Test
 
 format:
