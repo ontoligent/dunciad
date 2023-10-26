@@ -31,20 +31,9 @@
 
 # SVG Images
 
-## COLLEY CIBBER
-![](images/COLLEY_CIBBER.dot_fdp.svg)
-
-## COLLEY CIBBER EDMUND CURLL GILES JACOB JOHN DENNIS JOHN HENLEY
-<images/COLLEY_CIBBER_EDMUND_CURLL_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot_fdp.svg)
-
-## EDMUND CURLL
-![](images/EDMUND_CURLL.dot_fdp.svg)
-
-## GILES JACOB
-![](images/GILES_JACOB.dot_fdp.svg)
-
-## JOHN DENNIS
-![](images/JOHN_DENNIS.dot_fdp.svg)
-
-## JOHN HENLEY
-![](images/JOHN_HENLEY.dot_fdp.svg)
+* [COLLEY CIBBER EDMUND CURLL GILES JACOB JOHN DENNIS JOHN HENLEY](images/COLLEY_CIBBER_EDMUND_CURLL_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot_fdp.svg)
+* [COLLEY CIBBER](images/COLLEY_CIBBER.dot_fdp.svg)
+* [EDMUND CURLL](images/EDMUND_CURLL.dot_fdp.svg)
+* [GILES JACOB](images/GILES_JACOB.dot_fdp.svg)
+* [JOHN DENNIS](images/JOHN_DENNIS.dot_fdp.svg)
+* [JOHN HENLEY](images/JOHN_HENLEY.dot_fdp.svg)
