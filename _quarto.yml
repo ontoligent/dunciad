@@ -1,5 +1,20 @@
 project:
-  title: "dunciad"
+  title: "Dunciad Visualizations"
+  type: website
+  output-dir: docs
 
+website:
+  title: "Dunciad Visualizations"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: MakeGraphs.ipynb
+        text: Graphs
+      - about.qmd
 
-
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
