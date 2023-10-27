@@ -20,29 +20,30 @@
 ## COLLEY CIBBER
 
 ![](images/COLLEY_CIBBER.dot_fdp.svg)
+[SVG](images/COLLEY_CIBBER.dot_fdp.svg)
+[PNG](images/COLLEY_CIBBER.dot_fdp_w2000.png)
 
-[Open](images/COLLEY_CIBBER.dot_fdp.svg)
 
 ## EDMUND CURLL
 
 ![](images/EDMUND_CURLL.dot_fdp.svg)
-
-[Open](images/EDMUND_CURLL.dot_fdp.svg)
+[SVG](images/EDMUND_CURLL.dot_fdp.svg)
+[PNG](images/EDMUND_CURLL.dot_fdp_w2000.png)
 
 ## GILES JACOB
 
 ![](images/GILES_JACOB.dot_fdp.svg)
-
-[Open](images/GILES_JACOB.dot_fdp.svg)
+[SVG](images/GILES_JACOB.dot_fdp.svg)
+[PNG](images/GILES_JACOB.dot_fdp_w2000.png)
 
 ## JOHN DENNIS
 
 ![](images/JOHN_DENNIS.dot_fdp.svg)
-
-[Open](images/JOHN_DENNIS.dot_fdp.svg)
+[SVG](images/JOHN_DENNIS.dot_fdp.svg)
+[PNG](images/JOHN_DENNIS.dot_fdp_w2000.png)
 
 ## JOHN HENLEY
 
 ![](images/JOHN_HENLEY.dot_fdp.svg)
-
-[Open](images/JOHN_HENLEY.dot_fdp.svg)
+[SVG](images/JOHN_HENLEY.dot_fdp.svg)
+[PNG](images/JOHN_HENLEY.dot_fdp_w2000.png)

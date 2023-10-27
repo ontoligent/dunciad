@@ -958,7 +958,7 @@ William Wycherley
 </section>
 <section id="draw-graphs" class="level1">
 <h1>Draw Graphs</h1>
-<div class="cell" data-tags="[]" data-execution_count="28">
+<div class="cell" data-tags="[]" data-execution_count="24">
 <div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> create_graph(persons:[]<span class="op">=</span>[], mode<span class="op">=</span><span class="st">'fdp'</span>):</span>
 <span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">global</span> E, N    </span>
 <span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    </span>
@@ -983,19 +983,26 @@ William Wycherley
 <span id="cb26-22"><a href="#cb26-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(file_name, <span class="st">"w"</span>) <span class="im">as</span> outfile:</span>
 <span id="cb26-23"><a href="#cb26-23" aria-hidden="true" tabindex="-1"></a>        outfile.write(graph_text)</span>
 <span id="cb26-24"><a href="#cb26-24" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb26-25"><a href="#cb26-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="bu">format</span> <span class="kw">in</span> <span class="st">"jpeg svg png"</span>.split():</span>
-<span id="cb26-26"><a href="#cb26-26" aria-hidden="true" tabindex="-1"></a>        os.system(<span class="ss">f"</span><span class="sc">{</span>mode<span class="sc">}</span><span class="ss"> -T</span><span class="sc">{</span><span class="bu">format</span><span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>file_name<span class="sc">}</span><span class="ss"> &gt; </span><span class="sc">{</span>file_name<span class="sc">}</span><span class="ss">_</span><span class="sc">{</span>mode<span class="sc">}</span><span class="ss">.</span><span class="sc">{</span><span class="bu">format</span><span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb26-25"><a href="#cb26-25" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert to SVG</span></span>
+<span id="cb26-26"><a href="#cb26-26" aria-hidden="true" tabindex="-1"></a>    <span class="bu">format</span> <span class="op">=</span> <span class="st">'svg'</span></span>
+<span id="cb26-27"><a href="#cb26-27" aria-hidden="true" tabindex="-1"></a>    os.system(<span class="ss">f"</span><span class="sc">{</span>mode<span class="sc">}</span><span class="ss"> -T</span><span class="sc">{</span><span class="bu">format</span><span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>file_name<span class="sc">}</span><span class="ss"> &gt; </span><span class="sc">{</span>file_name<span class="sc">}</span><span class="ss">_</span><span class="sc">{</span>mode<span class="sc">}</span><span class="ss">.</span><span class="sc">{</span><span class="bu">format</span><span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb26-28"><a href="#cb26-28" aria-hidden="true" tabindex="-1"></a>    <span class="co"># for format in "jpeg svg png".split():</span></span>
+<span id="cb26-29"><a href="#cb26-29" aria-hidden="true" tabindex="-1"></a>    <span class="co">#     os.system(f"{mode} -T{format} {file_name} &gt; {file_name}_{mode}.{format}")</span></span>
+<span id="cb26-30"><a href="#cb26-30" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb26-31"><a href="#cb26-31" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert to PNG</span></span>
+<span id="cb26-32"><a href="#cb26-32" aria-hidden="true" tabindex="-1"></a>    width <span class="op">=</span> <span class="dv">2000</span> <span class="co"># pixels</span></span>
+<span id="cb26-33"><a href="#cb26-33" aria-hidden="true" tabindex="-1"></a>    os.system(<span class="ss">f"rsvg-convert -w </span><span class="sc">{</span>width<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>file_name<span class="sc">}</span><span class="ss">_</span><span class="sc">{</span>mode<span class="sc">}</span><span class="ss">.svg &gt; </span><span class="sc">{</span>file_name<span class="sc">}</span><span class="ss">_</span><span class="sc">{</span>mode<span class="sc">}</span><span class="ss">_w</span><span class="sc">{</span>width<span class="sc">}</span><span class="ss">.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="29">
+<div class="cell" data-tags="[]" data-execution_count="25">
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>persons <span class="op">=</span> E.index.levels[<span class="dv">0</span>].to_list()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="30">
+<div class="cell" data-tags="[]" data-execution_count="26">
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>create_graph(persons)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>images/COLLEY_CIBBER_EDMUND_CURLL_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot</code></pre>
 </div>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="31">
+<div class="cell" data-tags="[]" data-execution_count="27">
 <div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> person <span class="kw">in</span> persons:</span>
 <span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>    create_graph([person])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
