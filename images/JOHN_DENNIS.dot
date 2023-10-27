@@ -1,6 +1,6 @@
 digraph G {
 rankdir=LR
-node [shape=plaintext]
+node [shape=rect]
 ABEL_BOYER [label=< Abel<br/>Boyer >]
 ALEXANDER_POPE [label=< Alexander<br/>Pope >]
 A_MOORE [label=< A.<br/>Moore >]
