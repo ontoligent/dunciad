@@ -3,12 +3,12 @@
 
 # Images 
 
-| relation | color |
-|----------|-------|
-| Akin to  | <span style="color: green;font-weight:bold;">&rarr;</span> |
-| Attacked  | <span style="color: red;font-weight:bold;">&rarr;</span> |
-| Dissimilar  | <span style="color: orange;font-weight:bold;">&rarr;</span> |
-| Defended  | <span style="color: blue;font-weight:bold;">&rarr;</span> |
+| relation   | color                                                       |
+|------------|-------------------------------------------------------------|
+| Akin to    | <span style="color: green;font-weight:bold;">&rarr;</span>  |
+| Attacked   | <span style="color: red;font-weight:bold;">&rarr;</span>    |
+| Dissimilar | <span style="color: orange;font-weight:bold;">&rarr;</span> |
+| Defended   | <span style="color: blue;font-weight:bold;">&rarr;</span>   |
 
 ## All
 

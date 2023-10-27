@@ -12,24 +12,28 @@
 <!-- EDMUND_GIBSON -->
 <g id="node1" class="node">
 <title>EDMUND_GIBSON</title>
+<polygon fill="none" stroke="black" points="67.16,-151.93 0.16,-151.93 0.16,-113.93 67.16,-113.93 67.16,-151.93"/>
 <text text-anchor="start" x="8.16" y="-136.73" font-family="Times,serif" font-size="14.00"> Edmund</text>
 <text text-anchor="start" x="12.16" y="-121.73" font-family="Times,serif" font-size="14.00">Gibson </text>
 </g>
 <!-- FRANCES_HARE -->
 <g id="node2" class="node">
 <title>FRANCES_HARE</title>
+<polygon fill="none" stroke="black" points="211.21,-175.79 149.21,-175.79 149.21,-137.79 211.21,-137.79 211.21,-175.79"/>
 <text text-anchor="start" x="157.21" y="-160.59" font-family="Times,serif" font-size="14.00"> Frances</text>
 <text text-anchor="start" x="164.71" y="-145.59" font-family="Times,serif" font-size="14.00">Hare </text>
 </g>
 <!-- JAMES_RALPH -->
 <g id="node3" class="node">
 <title>JAMES_RALPH</title>
+<polygon fill="none" stroke="black" points="138.78,-93.02 84.78,-93.02 84.78,-55.02 138.78,-55.02 138.78,-93.02"/>
 <text text-anchor="start" x="92.78" y="-77.82" font-family="Times,serif" font-size="14.00"> James</text>
 <text text-anchor="start" x="93.28" y="-62.82" font-family="Times,serif" font-size="14.00">Ralph </text>
 </g>
 <!-- JOHN_HENLEY -->
 <g id="node4" class="node">
 <title>JOHN_HENLEY</title>
+<polygon fill="none" stroke="black" points="139.49,-139.72 80.49,-139.72 80.49,-101.72 139.49,-101.72 139.49,-139.72"/>
 <text text-anchor="start" x="94.99" y="-124.52" font-family="Times,serif" font-size="14.00"> John</text>
 <text text-anchor="start" x="88.49" y="-109.52" font-family="Times,serif" font-size="14.00">Henley </text>
 </g>
@@ -54,6 +58,7 @@
 <!-- POSSIBLY_BENJAMIN_HOADLY -->
 <g id="node5" class="node">
 <title>POSSIBLY_BENJAMIN_HOADLY</title>
+<polygon fill="none" stroke="black" points="238.87,-113.96 164.87,-113.96 164.87,-60.96 238.87,-60.96 238.87,-113.96"/>
 <text text-anchor="start" x="172.87" y="-98.76" font-family="Times,serif" font-size="14.00"> (possibly)</text>
 <text text-anchor="start" x="174.87" y="-83.76" font-family="Times,serif" font-size="14.00">Benjamin</text>
 <text text-anchor="start" x="179.87" y="-68.76" font-family="Times,serif" font-size="14.00">Hoadly </text>
@@ -67,6 +72,7 @@
 <!-- RICHARD_BLACKMORE -->
 <g id="node6" class="node">
 <title>RICHARD_BLACKMORE</title>
+<polygon fill="none" stroke="black" points="136.83,-204.23 56.83,-204.23 56.83,-166.23 136.83,-166.23 136.83,-204.23"/>
 <text text-anchor="start" x="73.33" y="-189.03" font-family="Times,serif" font-size="14.00"> Richard</text>
 <text text-anchor="start" x="64.83" y="-174.03" font-family="Times,serif" font-size="14.00">Blackmore </text>
 </g>
@@ -79,6 +85,7 @@
 <!-- RICHARD_FLECKNOE -->
 <g id="node7" class="node">
 <title>RICHARD_FLECKNOE</title>
+<polygon fill="none" stroke="black" points="73.72,-73.29 3.72,-73.29 3.72,-35.29 73.72,-35.29 73.72,-73.29"/>
 <text text-anchor="start" x="15.22" y="-58.09" font-family="Times,serif" font-size="14.00"> Richard</text>
 <text text-anchor="start" x="11.72" y="-43.09" font-family="Times,serif" font-size="14.00">Flecknoe </text>
 </g>
@@ -91,6 +98,7 @@
 <!-- THOMAS_SHERLOCK -->
 <g id="node8" class="node">
 <title>THOMAS_SHERLOCK</title>
+<polygon fill="none" stroke="black" points="179.19,-37.52 111.19,-37.52 111.19,0.48 179.19,0.48 179.19,-37.52"/>
 <text text-anchor="start" x="121.19" y="-22.32" font-family="Times,serif" font-size="14.00"> Thomas</text>
 <text text-anchor="start" x="119.19" y="-7.32" font-family="Times,serif" font-size="14.00">Sherlock </text>
 </g>
