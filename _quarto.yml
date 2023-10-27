@@ -8,11 +8,9 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - href: MakeGraphs.ipynb
         text: Graphs
-      - href: images/test.svg
-        text: SVG Test
+      - href: MakeGraphs.ipynb
+        text: Noteook
 
 format:
   html:
