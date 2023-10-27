@@ -10,7 +10,7 @@ website:
       - href: index.qmd
         text: Graphs
       - href: MakeGraphs.ipynb
-        text: Noteook
+        text: Notebook
 
 format:
   html:
