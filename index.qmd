@@ -5,26 +5,26 @@
 
 | relation | color |
 |----------|-------|
-| Akin to  | <span style="color: green;">&rarr;</span> |
-| Attacked  | <span style="color: red;">&rarr;</span> |
-| Dissimilar  | <span style="color: orange;">&rarr;</span> |
-| Defended  | <span style="color: blue;">&rarr;</span> |
+| Akin to  | <span style="color: green;font-weight:bold;">&rarr;</span> |
+| Attacked  | <span style="color: red;font-weight:bold;">&rarr;</span> |
+| Dissimilar  | <span style="color: orange;font-weight:bold;">&rarr;</span> |
+| Defended  | <span style="color: blue;font-weight:bold;">&rarr;</span> |
 
 
 ## COLLEY CIBBER
-![](images/COLLEY_CIBBER.dot_fdp.png)
+![](images/COLLEY_CIBBER.dot_fdp.svg)
 
 ## COLLEY CIBBER EDMUND CURLL GILES JACOB JOHN DENNIS JOHN HENLEY
-![](images/COLLEY_CIBBER_EDMUND_CURLL_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot_fdp.png)
+![](images/COLLEY_CIBBER_EDMUND_CURLL_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot_fdp.svg)
 
 ## EDMUND CURLL
-![](images/EDMUND_CURLL.dot_fdp.png)
+![](images/EDMUND_CURLL.dot_fdp.svg)
 
 ## GILES JACOB
-![](images/GILES_JACOB.dot_fdp.png)
+![](images/GILES_JACOB.dot_fdp.svg)
 
 ## JOHN DENNIS
-![](images/JOHN_DENNIS.dot_fdp.png)
+![](images/JOHN_DENNIS.dot_fdp.svg)
 
 ## JOHN HENLEY
-![](images/JOHN_HENLEY.dot_fdp.png)
+![](images/JOHN_HENLEY.dot_fdp.svg)
