@@ -1,6 +1,6 @@
 digraph G {
 rankdir=LR
-node [shape=rect overlap=false]
+node [shape=rect overlap=false fontname=arial]
 ANNE_TANNEGUYLE_FEVRE_DACIER [label=< Anne Tanneguy-Le<br/>Fevre Dacier >]
 EDMUND_CURLL [label=< Edmund<br/>Curll >]
 EDWARD_WARD [label=< Edward<br/>Ward >]
