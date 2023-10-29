@@ -3,12 +3,25 @@
 
 # Images 
 
+## Finished Products
+
+* [ALL](product/ALL.png)
+* [CIBBER](product/CIBBER.png)
+* [CURLL](product/CURLL.png)
+* [DENNIS](product/DENNIS.png)
+* [HAYWOORD_circo](product/HAYWOORD_circo.png)
+* [HENLEY_circo](product/HENLEY_circo.png)
+* [JACOB_circo](product/JACOB_circo.png)
+
+## Legend
+
 | relation   | color                                                       |
 |------------|-------------------------------------------------------------|
 | Akin to    | <span style="color: green;font-weight:bold;">&rarr;</span>  |
 | Attacked   | <span style="color: red;font-weight:bold;">&rarr;</span>    |
 | Dissimilar | <span style="color: orange;font-weight:bold;">&rarr;</span> |
 | Defended   | <span style="color: blue;font-weight:bold;">&rarr;</span>   |
+
 
 ## All
 
