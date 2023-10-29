@@ -164,3 +164,4 @@ cython_debug/
 #.idea/
 
 /.quarto/
+.DS_Store
