@@ -1,0 +1,347 @@
+row_id,person,referent,relation,rel
+0,Colley Cibber,Alexander Pope,Attacked,-2
+1,Colley Cibber,Alexander Pope,Attacked,-2
+2,Colley Cibber,John Dennis,Akin to,1
+3,Colley Cibber,Lewis Theobald,Akin to,1
+4,Colley Cibber,Stephen Duck,Akin to,1
+5,Colley Cibber,Laurence Eusden,Akin to,1
+6,Colley Cibber,Dulness,Akin to,1
+7,Colley Cibber,George Etherege,Akin to,1
+8,Colley Cibber,Robert Walpole,Akin to,1
+9,Colley Cibber,John Ozell,Akin to,1
+10,Colley Cibber,John Ozell,Akin to,1
+11,Colley Cibber,Lewis Theobald,Akin to,1
+12,Colley Cibber,Dulness,Akin to,1
+13,Colley Cibber,George II,Akin to,1
+14,Colley Cibber,George II,Akin to,1
+15,Colley Cibber,Thomas Archer,Akin to,1
+16,Colley Cibber,George I,Akin to,1
+17,Colley Cibber,George II,Akin to,1
+18,Colley Cibber,Laurence Eusden,Akin to,1
+19,Colley Cibber,Dulness,Akin to,1
+20,Colley Cibber,Laurence Eusden,Akin to,1
+21,Colley Cibber,Alexander Pope,Attacked,-2
+22,Colley Cibber,Martinus Scriblerus,Akin to,1
+23,Colley Cibber,John Banks,Akin to,1
+24,Colley Cibber,William Broome,Akin to,1
+25,Colley Cibber,Elkanah Settle,Akin to,1
+26,Colley Cibber,Camillo Querno,Akin to,1
+27,Colley Cibber,Richard Bentley,Akin to,1
+28,Colley Cibber,Caius Gabriel Cibber,Akin to,1
+29,Colley Cibber,Alexander Pope,Akin to,1
+30,Colley Cibber,Lewis Theobald,Akin to,1
+31,Colley Cibber,Camillo Querno,Akin to,1
+32,Colley Cibber,Francis Atterbury,Dissimilar,-1
+33,Colley Cibber,Isaac Newton,Dissimilar,-1
+34,Colley Cibber,Issac Barrow,Dissimilar,-1
+35,Colley Cibber,John Dryden,Dissimilar,-1
+36,Colley Cibber,John Garth,Dissimilar,-1
+37,Colley Cibber,John Locke,Dissimilar,-1
+38,Colley Cibber,Joseph Addison,Dissimilar,-1
+39,Colley Cibber,William Congreve,Dissimilar,-1
+40,Colley Cibber,Edmund Curll,Akin to,1
+41,Colley Cibber,Dulness,Akin to,1
+42,Colley Cibber,Dulness,Akin to,1
+43,Colley Cibber,Dulness,Akin to,1
+44,Colley Cibber,Dulness,Akin to,1
+45,Colley Cibber,Dulness,Akin to,1
+46,Colley Cibber,Caius Gabriel Cibber,Akin to,1
+47,Colley Cibber,Cardell Goodman,Akin to,1
+48,Colley Cibber,Barton Booth,Akin to,1
+49,Colley Cibber,Elkanah Settle,Akin to,1
+50,Colley Cibber,Dulness,Akin to,1
+51,Colley Cibber,Charles Fleetwood,Akin to,1
+52,Colley Cibber,Henry Janssen,Akin to,1
+53,Colley Cibber,Elkanah Settle,Akin to,1
+54,Colley Cibber,Philip Dormer Stanhope,Attacked,-2
+55,Colley Cibber,Martinus Scriblerus,Akin to,1
+56,Colley Cibber,Philip Dormer Stanhope,Akin to,1
+57,Colley Cibber,John Fletcher,Akin to,1
+58,Colley Cibber,Richard Bentley,Akin to,1
+59,Colley Cibber,Alexander Pope,Attacked,-2
+60,Colley Cibber,Thomas Cooke,Akin to,1
+61,Colley Cibber,Edmund Curll,Akin to,1
+62,Colley Cibber,Alexander Pope,Attacked,-2
+63,Colley Cibber,Alexander Pope,Attacked,-2
+64,Colley Cibber,Alexander Pope,Attacked,-2
+65,Colley Cibber,Lord Bishop of London,Akin to,1
+66,Colley Cibber,William Temple,Akin to,1
+67,Colley Cibber,Robert Walpole,Akin to,1
+68,Colley Cibber,John Dryden,Attacked,-2
+69,Colley Cibber,Matthew Prior,Attacked,-2
+70,Colley Cibber,Alexander Pope,Attacked,-2
+71,Colley Cibber,Alexander Pope,Attacked,-2
+72,Colley Cibber,John Hervey,Akin to,1
+73,Colley Cibber,John Dennis,Akin to,1
+74,Edmund Curll,Alexander Pope,Attacked,-2
+75,Edmund Curll,Richard Blackmore,Akin to,1
+76,Edmund Curll,Elizabeth Thomas,Akin to,1
+77,Edmund Curll,George Duckett,Akin to,1
+78,Edmund Curll,John Dennis,Akin to,1
+79,Edmund Curll,Giles Jacob,Akin to,1
+80,Edmund Curll,Bernard Lintot,Akin to,1
+81,Edmund Curll,John Dennis,Akin to,1
+82,Edmund Curll,Bernard Lintot,Akin to,1
+83,Edmund Curll,Lewis Theobald,Akin to,1
+84,Edmund Curll,Alexander Pope,Attacked,-2
+85,Edmund Curll,Bernard Lintot,Akin to,1
+86,Edmund Curll,Joseph Gay,Akin to,1
+87,Edmund Curll,John Gay,Attacked,-2
+88,Edmund Curll,Henry Curll,Akin to,1
+89,Edmund Curll,Thomas Osborne,Akin to,1
+90,Edmund Curll,Eliza Haywood,Akin to,1
+91,Edmund Curll,Bernard Lintot,Akin to,1
+92,Edmund Curll,Elizabeth Thomas,Akin to,1
+93,Edmund Curll,Cloacina,Akin to,1
+94,Edmund Curll,Edward Young,Dissimilar,-1
+95,Edmund Curll,Jonathan Swift,Dissimilar,-1
+96,Edmund Curll,Abel Evans,Dissimilar,-1
+97,Edmund Curll,Joseph Gay,Akin to,1
+98,Edmund Curll,John Dennis,Akin to,1
+99,Edmund Curll,Jonathan Swift,Dissimilar,-1
+100,Edmund Curll,Alexander Pope,Dissimilar,-1
+101,Edmund Curll,Eliza Haywood,Akin to,1
+102,Edmund Curll,Lewis Theobald,Akin to,1
+103,Edmund Curll,John Dennis,Akin to,1
+104,Edmund Curll,Richard Blackmore,Akin to,1
+105,Edmund Curll,Alexander Pope,Attacked,-2
+106,Edmund Curll,John Oldmixon,Akin to,1
+107,Edmund Curll,John Henley,Akin to,1
+108,Edmund Curll,James-Moore Smith,Akin to,1
+109,Edmund Curll,Alexander Pope,Attacked,-2
+110,Edmund Curll,Lady Mary Wortley Montagu,Akin to,1
+111,Edmund Curll,Alexander Pope,Attacked,-2
+112,Edmund Curll,Henry Cromwell,Attacked,-2
+113,Edmund Curll,Elizabeth Thomas,Akin to,1
+114,Edmund Curll,Bernard Lintot,Akin to,1
+115,Edmund Curll,Edward Ward,Defended,2
+116,Edmund Curll,John Dennis,Akin to,1
+117,Edmund Curll,John Oldmixon,Akin to,1
+118,Edmund Curll,Leonard Welsted,Akin to,1
+119,Edmund Curll,Lewis Theobald,Dissimilar,-1
+120,Edmund Curll,Joseph Gay,Akin to,1
+121,Edmund Curll,Alexander Pope,Attacked,-2
+122,Edmund Curll,Colley Cibber,Akin to,1
+123,Edmund Curll,Thomas Cooke,Akin to,1
+124,Edmund Curll,Edward Ward,Akin to,1
+125,Edmund Curll,Alexander Pope,Attacked,-2
+126,Edmund Curll,John Dennis,Akin to,1
+127,Edmund Curll,Charles Gildon,Akin to,1
+128,Edmund Curll,Richard Blackmore,Akin to,1
+129,Edmund Curll,Lewis Theobald,Attacked,-2
+130,Edmund Curll,Joseph Addison,Defended,2
+131,Edmund Curll,William Wycherley,Defended,2
+132,Edmund Curll,Lewis Theobald,Attacked,-2
+133,Edmund Curll,Alexander Pope,Attacked,-2
+134,Edmund Curll,Besaleel Morris,Akin to,1
+135,Edmund Curll,John Durant Breval,Akin to,1
+136,Edmund Curll,Thomas Warner,Akin to,1
+137,Edmund Curll,William Bond ,Akin to,1
+138,Edmund Curll,William Mears,Akin to,1
+139,Edmund Curll,William Wilkins,Akin to,1
+140,Edmund Curll,Lady Mary Wortley Montagu,Akin to,1
+141,Edmund Curll,Toussaint Edmond de Saint-Mard,Dissimilar,-1
+142,Edmund Curll,Jonathan Swift,Attacked,-2
+143,Edmund Curll,Matthew Concanen,Akin to,1
+144,Edmund Curll,Matthew Prior,Attacked,-2
+145,Edmund Curll,Thomas Cooke,Akin to,1
+146,Edmund Curll,Joseph Addison,Attacked,-2
+147,Edmund Curll,Samuel Garth,Attacked,-2
+148,Edmund Curll,Abel Roper,Akin to,1
+149,Edmund Curll,Daniel Defoe,Akin to,1
+150,Edmund Curll,George Ridpath,Akin to,1
+151,Edmund Curll,John Dunton,Akin to,1
+152,Edmund Curll,John Tutchin,Akin to,1
+153,Edmund Curll,Abel Roper,Akin to,1
+154,Edmund Curll,John Dennis,Akin to,1
+155,Edmund Curll,Alexander Pope,Attacked,-2
+156,Edmund Curll,Besaleel Morris,Akin to,1
+157,Edmund Curll,John Arbuthnot,Attacked,-2
+158,Edmund Curll,John Durant Breval,Akin to,1
+159,Edmund Curll,John Gay,Attacked,-2
+160,Edmund Curll,Joseph Addison,Attacked,-2
+161,Edmund Curll,Matthew Prior,Attacked,-2
+162,Edmund Curll,William Bond ,Akin to,1
+163,Edmund Curll,William Congreve,Attacked,-2
+164,Edmund Curll,William Mears,Akin to,1
+165,Edmund Curll,Besaleel Morris,Akin to,1
+166,Edmund Curll,James Moore Smythe,Akin to,1
+167,Edmund Curll,John Durant Breval,Akin to,1
+168,Edmund Curll,Joseph Gay (aka John Durant Breval),Akin to,1
+169,Edmund Curll,William Bond,Akin to,1
+170,Edmund Curll,John Gay,Attacked,-2
+171,Edmund Curll,John Gay,Attacked,-2
+172,Edmund Curll,Alexander Pope,Attacked,-2
+173,Edmund Curll,Ambrose Phillips,Akin to,1
+174,Edmund Curll,Jonathan Swift,Attacked,-2
+175,Edmund Curll,Leonard Welsted,Akin to,1
+176,Edmund Curll,Lewis Theobald,Akin to,1
+177,Edmund Curll,Matthew Prior,Attacked,-2
+178,Edmund Curll,Thomas Cooke,Akin to,1
+179,Edmund Curll,Colley Cibber,Dissimilar,-1
+180,Edmund Curll,Isaac Barrow,Dissimilar,-1
+181,Edmund Curll,Isaac Newton,Dissimilar,-1
+182,Edmund Curll,John Atterbury,Dissimilar,-1
+183,Edmund Curll,John Dennis,Akin to,1
+184,Edmund Curll,John Dryden,Dissimilar,-1
+185,Edmund Curll,John Locke,Dissimilar,-1
+186,Edmund Curll,Joseph Addison,Dissimilar,-1
+187,Edmund Curll,Lewis Theobald,Akin to,1
+188,Edmund Curll,Samuel Garth,Dissimilar,-1
+189,Edmund Curll,William Congreve,Dissimilar,-1
+190,Edmund Curll,Alexander Pope,Attacked,-2
+191,Edmund Curll,John Dunton,Akin to,1
+192,Edmund Curll,Matthew Concanen,Akin to,1
+193,Edmund Curll,White Kenneth,Attacked,-2
+194,Edmund Curll,William Cavendish,Attacked,-2
+195,Edmund Curll,John Tutchin,Akin to,1
+196,Edmund Curll,Abel Roper,Akin to,1
+197,Edmund Curll,George Ridpath,Akin to,1
+198,Eliza Haywood,Richard Savage,Dissimilar,-1
+199,Eliza Haywood,Edmund Curll,Akin to,1
+200,Eliza Haywood,Anne Tanneguy-Le Fevre Dacier,Akin to,1
+201,Eliza Haywood,Elisha Kirkall,Akin to,1
+202,Eliza Haywood,Edward Ward,Akin to,1
+203,Eliza Haywood,John Dennis,Akin to,1
+204,Eliza Haywood,John Oldmixon,Akin to,1
+205,Eliza Haywood,Lewis Theobald,Akin to,1
+206,Eliza Haywood,Leonard Welsted,Akin to,1
+207,Giles Jacob,Laurence Eusden,Defended,2
+208,Giles Jacob,John Dennis,Defended,2
+209,Giles Jacob,Alexander Pope,Defended,2
+210,Giles Jacob,Edward Ward,Defended,2
+211,Giles Jacob,John Ozell,Defended,2
+212,Giles Jacob,Lewis Theobald,Defended,2
+213,Giles Jacob,John Ozell,Defended,2
+214,Giles Jacob,John Oldmixon,Defended,2
+215,Giles Jacob,Eustace Budgell,Defended,2
+216,Giles Jacob,Susanna Centlivre,Defended,2
+217,Giles Jacob,John Gay,Attacked,-2
+218,Giles Jacob,John Dennis,Akin to,1
+219,Giles Jacob,Alexander Pope,Attacked,-2
+220,Giles Jacob,Edmund Curll,Defended,2
+221,Giles Jacob,John Dennis,Akin to,1
+222,Giles Jacob,Alexander Pope,Attacked,-2
+223,Giles Jacob,John Dennis,Defended,2
+224,Giles Jacob,Ambrose Phillips,Defended,2
+225,Giles Jacob,Alexander Pope,Attacked,-2
+226,Giles Jacob,Alexander Pope,Attacked,-2
+227,John Dennis,A Moore,Akin to,1
+228,John Dennis,George Duckett,Akin to,1
+229,John Dennis,Lewis Theobald,Akin to,1
+230,John Dennis,Matthew Concanen,Akin to,1
+231,John Dennis,Thomas Cooke,Akin to,1
+232,John Dennis,Alexander Pope,Attacked,-2
+233,John Dennis,Alexander Pope,Attacked,-2
+234,John Dennis,Alexander Pope,Attacked,-2
+235,John Dennis,Lewis Theobald,Akin to,1
+236,John Dennis,Alexander Pope,Attacked,-2
+237,John Dennis,Alexander Pope,Attacked,-2
+238,John Dennis,Alexander Pope,Attacked,-2
+239,John Dennis,Alexander Pope,Attacked,-2
+240,John Dennis,John Anstis,Akin to,1
+241,John Dennis,Colley Cibber,Akin to,1
+242,John Dennis,Lewis Theobald,Akin to,1
+243,John Dennis,Bernard Lintot,Akin to,1
+244,John Dennis,Alexander Pope,Attacked,-2
+245,John Dennis,Alexander Pope,Attacked,-2
+246,John Dennis,Alexander Pope,Attacked,-2
+247,John Dennis,Alexander Pope,Attacked,-2
+248,John Dennis,Alexander Pope,Attacked,-2
+249,John Dennis,Alexander Pope,Attacked,-2
+250,John Dennis,Alexander Pope,Attacked,-2
+251,John Dennis,Alexander Pope,Attacked,-2
+252,John Dennis,Alexander Pope,Attacked,-2
+253,John Dennis,Alexander Pope,Attacked,-2
+254,John Dennis,Alexander Pope,Attacked,-2
+255,John Dennis,Alexander Pope,Attacked,-2
+256,John Dennis,Alexander Pope,Attacked,-2
+257,John Dennis,Alexander Pope,Attacked,-2
+258,John Dennis,Alexander Pope,Attacked,-2
+259,John Dennis,Alexander Pope,Attacked,-2
+260,John Dennis,Edmund Curll,Akin to,1
+261,John Dennis,S Popping,Akin to,1
+262,John Dennis,Giles Jacob,Akin to,1
+263,John Dennis,Alexander Pope,Attacked,-2
+264,John Dennis,Alexander Pope,Attacked,-2
+265,John Dennis,Richard Blackmore,Akin to,1
+266,John Dennis,Alexander Pope,Attacked,-2
+267,John Dennis,Alexander Pope,Attacked,-2
+268,John Dennis,Lewis Theobald,Akin to,1
+269,John Dennis,Lewis Theobald,Akin to,1
+270,John Dennis,Alexander Pope,Attacked,-2
+271,John Dennis,Alexander Pope,Attacked,-2
+272,John Dennis,Alexander Pope,Attacked,-2
+273,John Dennis,William Law,Attacked,-2
+274,John Dennis,Alexander Pope,Attacked,-2
+275,John Dennis,Alexander Pope,Attacked,-2
+276,John Dennis,Alexander Pope,Attacked,-2
+277,John Dennis,Leonard Welsted,Defended,2
+278,John Dennis,Alexander Pope,Attacked,-2
+279,John Dennis,Richard Blackmore,Akin to,1
+280,John Dennis,Edmund Curll,Akin to,1
+281,John Dennis,Richard Blackmore,Akin to,1
+282,John Dennis,John Dryden,Attacked,-2
+283,John Dennis,John Oldmixon,Akin to,1
+284,John Dennis,A Boyer,Attacked,-2
+285,John Dennis,William Law,Attacked,-2
+286,John Dennis,William Law,Attacked,-2
+287,John Dennis,Hilkiah Bedford,Attacked,-2
+288,John Dennis,Jeremy Collier,Attacked,-2
+289,John Dennis,Charles Gildon,Akin to,1
+290,John Dennis,Alexander Pope,Attacked,-2
+291,John Dennis,Charles Gildon,Akin to,1
+292,John Dennis,Alexander Pope,Attacked,-2
+293,John Dennis,Alexander Pope,Attacked,-2
+294,John Dennis,Giles Jacob,Akin to,1
+295,John Dennis,Alexander Pope,Attacked,-2
+296,John Dennis,Giles Jacob,Akin to,1
+297,John Dennis,Tom DíUrfey,Akin to,1
+298,John Dennis,Alexander Pope,Attacked,-2
+299,John Dennis,William Law,Attacked,-2
+300,John Dennis,George Ducket,Defended,2
+301,John Dennis,Bavius,Defended,2
+302,John Dennis,John Dryden,Attacked,-2
+303,John Dennis,Leonard Welsted,Akin to,1
+304,John Dennis,Elkanah Settle,Akin to,1
+305,John Dennis,John Oldmixon,Akin to,1
+306,John Dennis,Alexander Pope,Attacked,-2
+307,John Dennis,Thomas Rymer,Akin to,1
+308,John Dennis,Alexander Pope,Attacked,-2
+309,John Dennis,Charles Gildon,Akin to,1
+310,John Dennis,Alexander Pope,Attacked,-2
+311,John Dennis,Alexander Pope,Attacked,-2
+312,John Dennis,Alexander Pope,Attacked,-2
+313,John Dennis,Bernard Lintot,Akin to,1
+314,John Dennis,Edmund Curll,Akin to,1
+315,John Dennis,Alexander Pope,Attacked,-2
+316,John Dennis,Alexander Pope,Attacked,-2
+317,John Dennis,B.B.,Akin to,1
+318,John Dennis,Alexander Pope,Attacked,-2
+319,John Dennis,Alexander Pope,Attacked,-2
+320,John Dennis,Richard Blackmore,Akin to,1
+321,John Dennis,Alexander Pope,Attacked,-2
+322,John Dennis,John Gay,Attacked,-2
+323,John Dennis,Tom DíUrfey,Akin to,1
+324,John Dennis,Charles Gildon,Akin to,1
+325,John Dennis,Alexander Pope,Attacked,-2
+326,John Dennis,Alexander Pope,Attacked,-2
+327,John Dennis,Alexander Pope,Attacked,-2
+328,John Dennis,Alexander Pope,Attacked,-2
+329,John Dennis,Alexander Pope,Attacked,-2
+330,John Dennis,Alexander Pope,Attacked,-2
+331,John Dennis,Charles Gildon,Akin to,1
+332,John Dennis,Alexander Pope,Attacked,-2
+333,John Dennis,Colley Cibber,Akin to,1
+334,John Henley,James Ralph,Akin to,1
+335,John Henley,James Ralph,Akin to,1
+336,John Henley,Richard Flecknoe,Akin to,1
+337,John Henley,Benjamin Hoadly,Akin to,1
+338,John Henley,Richard Blackmore,Akin to,1
+339,John Henley,Edmund Gibson,Akin to,1
+340,John Henley,Frances Hare,Akin to,1
+341,John Henley,John Toland,Akin to,1
+342,John Henley,Matthew Tindal,Akin to,1
+343,John Henley,Thomas Woolston,Akin to,1
+344,John Henley,Thomas Sherlock,Akin to,1
+345,John Henley,Leonard Welsted,Akin to,1

@@ -1,6 +1,5 @@
 # Dunciad Visualizations
 
-
 # Images 
 
 ## Finished Products
@@ -12,6 +11,10 @@
 * [HAYWOORD_circo](product/HAYWOORD_circo.png)
 * [HENLEY_circo](product/HENLEY_circo.png)
 * [JACOB_circo](product/JACOB_circo.png)
+
+[Source Data](data/2020/edges.csv)
+
+----
 
 ## Legend
 
@@ -25,44 +28,44 @@
 
 ## All
 
-![](images/COLLEY_CIBBER_EDMUND_CURLL_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot_fdp.svg)
+![](images/COLLEY_CIBBER_EDMUND_CURLL_ELIZA_HAYWOOD_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot_afdp.svg)
 
-[SVG](images/COLLEY_CIBBER_EDMUND_CURLL_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot_fdp.svg)
-[PNG](images/COLLEY_CIBBER_EDMUND_CURLL_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot_fdp_w2000.png)
+[SVG](images/COLLEY_CIBBER_EDMUND_CURLL_ELIZA_HAYWOOD_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot_sfdp.svg)
+[PNG](images/COLLEY_CIBBER_EDMUND_CURLL_ELIZA_HAYWOOD_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot_sfdp_w2000.png)
 
 
 ## COLLEY CIBBER
 
-![](images/COLLEY_CIBBER.dot_fdp.svg)
+![](images/COLLEY_CIBBER.dot_sfdp.svg)
 
-[SVG](images/COLLEY_CIBBER.dot_fdp.svg)
-[PNG](images/COLLEY_CIBBER.dot_fdp_w2000.png)
+[SVG](images/COLLEY_CIBBER.dot_sfdp.svg)
+[PNG](images/COLLEY_CIBBER.dot_sfdp_w2000.png)
 
 
 ## EDMUND CURLL
 
-![](images/EDMUND_CURLL.dot_fdp.svg)
+![](images/EDMUND_CURLL.dot_sfdp.svg)
 
-[SVG](images/EDMUND_CURLL.dot_fdp.svg)
-[PNG](images/EDMUND_CURLL.dot_fdp_w2000.png)
+[SVG](images/EDMUND_CURLL.dot_sfdp.svg)
+[PNG](images/EDMUND_CURLL.dot_sfdp_w2000.png)
 
 ## GILES JACOB
 
-![](images/GILES_JACOB.dot_fdp.svg)
+![](images/GILES_JACOB.dot_sfdp.svg)
 
-[SVG](images/GILES_JACOB.dot_fdp.svg)
-[PNG](images/GILES_JACOB.dot_fdp_w2000.png)
+[SVG](images/GILES_JACOB.dot_sfdp.svg)
+[PNG](images/GILES_JACOB.dot_sfdp_w2000.png)
 
 ## JOHN DENNIS
 
-![](images/JOHN_DENNIS.dot_fdp.svg)
+![](images/JOHN_DENNIS.dot_sfdp.svg)
 
-[SVG](images/JOHN_DENNIS.dot_fdp.svg)
-[PNG](images/JOHN_DENNIS.dot_fdp_w2000.png)
+[SVG](images/JOHN_DENNIS.dot_sfdp.svg)
+[PNG](images/JOHN_DENNIS.dot_sfdp_w2000.png)
 
 ## JOHN HENLEY
 
-![](images/JOHN_HENLEY.dot_fdp.svg)
+![](images/JOHN_HENLEY.dot_sfdp.svg)
 
-[SVG](images/JOHN_HENLEY.dot_fdp.svg)
-[PNG](images/JOHN_HENLEY.dot_fdp_w2000.png)
+[SVG](images/JOHN_HENLEY.dot_sfdp.svg)
+[PNG](images/JOHN_HENLEY.dot_sfdp_w2000.png)
