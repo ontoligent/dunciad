@@ -9,7 +9,7 @@ website:
     left:
       - href: index.qmd
         text: Graphs
-      - href: MakeGraphs.ipynb
+      - href: notebooks/MakeGraphs.ipynb
         text: Notebook
 
 format:
