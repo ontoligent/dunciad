@@ -4,7 +4,7 @@
     "href": "index.html#finished-products",
     "title": "Dunciad Visualizations",
     "section": "Finished Products",
-    "text": "Finished Products\n\nALL\nCIBBER\nCURLL\nDENNIS\nHAYWOORD_circo\nHENLEY_circo\nJACOB_circo\n\nSource Data"
+    "text": "Finished Products\n\nALL\nCIBBER\nCURLL\nDENNIS\nHAYWOOD_circo\nHENLEY_circo\nJACOB_circo\n\nSource Data"
   },
   {
     "objectID": "index.html#legend",
@@ -18,7 +18,7 @@
     "href": "index.html#all",
     "title": "Dunciad Visualizations",
     "section": "All",
-    "text": "All\n[] (images/COLLEY_CIBBER_EDMUND_CURLL_ELIZA_HAYWOOD_GILES_JACOB_JOHN_DENNIS_JOHN_HENLEY.dot_sfdp.svg)\nSVG PNG"
+    "text": "All\n\nSVG PNG"
   },
   {
     "objectID": "index.html#colley-cibber",
@@ -35,13 +35,6 @@
     "text": "EDMUND CURLL\n\nSVG PNG"
   },
   {
-    "objectID": "index.html#giles-jacob",
-    "href": "index.html#giles-jacob",
-    "title": "Dunciad Visualizations",
-    "section": "GILES JACOB",
-    "text": "GILES JACOB\n\nSVG PNG"
-  },
-  {
     "objectID": "index.html#john-dennis",
     "href": "index.html#john-dennis",
     "title": "Dunciad Visualizations",
@@ -54,6 +47,20 @@
     "title": "Dunciad Visualizations",
     "section": "JOHN HENLEY",
     "text": "JOHN HENLEY\n\nSVG PNG"
+  },
+  {
+    "objectID": "index.html#eliza-haywood",
+    "href": "index.html#eliza-haywood",
+    "title": "Dunciad Visualizations",
+    "section": "ElIZA HAYWOOD",
+    "text": "ElIZA HAYWOOD\n\nSVG PNG"
+  },
+  {
+    "objectID": "index.html#giles-jacob",
+    "href": "index.html#giles-jacob",
+    "title": "Dunciad Visualizations",
+    "section": "GILES JACOB",
+    "text": "GILES JACOB\n\nSVG PNG"
   },
   {
     "objectID": "data/word_docs/Cibber-2.html",
